@@ -1,0 +1,3542 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Huro 1.0 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="docs.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Huro 1.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Huro 1.0</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="welcome">Welcome</h1>
+<p>First of all, Thank you so much for purchasing this template and for being our loyal customer. You are awesome! You are entitled to get free lifetime updates to this product and support from the css ninja team directly.</p>
+<p>This documentation has been written to help you regarding each step of customization. Please go through the documentation carefully to understand how this template is made and how to edit this properly. HTML and CSS knowledge is required to customize this template.</p>
+<p>! Be careful before you start working with the template and read the documentation. If not edited properly, layouts may break completely. No support is provided for faulty customization.</p>
+<h1 id="bulkit-41-update">Bulkit 4.1 Update</h1>
+<p>You are currently reading the new <strong>Bulkit 4.1</strong> documentation (The v3 documentation is still available at the top of the page, by clicking on the <strong>V3 DOCS</strong> link in the top right corner). Bulkit supports <code>npm</code> and <code>gulp</code>. New features have been added :</p>
+<ul>
+<li>Updated Bulma to 0.9.1</li>
+<li>Fixed various layout issues</li>
+<li>Refactored all kits</li>
+<li>Merged all kits into one</li>
+<li>Added new landing pages and utilities</li>
+<li>Added 10 built in color schemes</li>
+<li>Redesigned and refreshed all graphic assets</li>
+<li>Made all sections / hero / UI elements global</li>
+</ul>
+<p>! Please carefully read this documentation to  get started fast with the template. You don&apos;t need to know any <code>nodejs</code> or anything else. Just follow the steps to setup your templates. Please also consider that with the upgrade to <strong>Bulma 0.9.1</strong>, to <strong>gulp 4</strong> and to <strong>nodejs 10.15.3</strong> qre breqking changes. Integrate them carefully in your ongoing work.</p>
+<h1 id="getting-started">Getting started</h1>
+<h2 id="support">Support</h2>
+<p>If you have any trouble while editing this template or if you simply want to ask a question about something, feel free to contact us at <strong>support@cssninja.io</strong> or to post your request on our support forums at <a href="https://cssninja.io/forum" target="_blank">cssninja.io</a></p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>You will need the following tools to customize this template.</p>
+<ol>
+<li>A good code editor of your choice</li>
+<li>A supported web browser</li>
+<li><code>node.js</code> and <code>npm</code> installed on your machine</li>
+<li>Intermediate <code>html</code> knowledge</li>
+<li>Intermediate <code>scss</code> knowledge</li>
+<li>Basic <code>javascript</code> knowledge</li>
+</ol>
+<p>! Be careful before you start working with the template and read the documentation. If not edited properly, layouts may break completely. No support is provided for faulty customization.</p>
+<h2 id="template-folders">Template folders</h2>
+<p>You will find 3 root folders inside your Bulkit Downloaded Zip file :</p>
+<ul>
+<li><strong>documentation</strong> : The local documentation version shipped with Bulkit</li>
+<li><strong>bulkit-4.1.0</strong> : The project folder containing the project</li>
+<li><strong>precompiled</strong> : A precompiled version (CSS, Html, Js) of the project.</li>
+</ul>
+<p>! Note that the precompiled versions result from the build of the project. This documentation mostly focuses on building it using Gulp.</p>
+<h2 id="the-bulkit-gulp">The Bulkit Gulp</h2>
+<p>Using this Bulkit bundle will give you total control over the template. All the important tasks are fully automated, <strong>you don&apos;t have to do anything</strong>. However, we will explain in details how to get the most from the template, even if you&apos;ve never worked, with <code>npm</code>, <code>gulp</code> or <code>panini</code> before.</p>
+<p>To avoid repeating same chunks of code, Bulkit gulp also uses <strong>zurb-panini</strong>, a very lightweight html templating engine. You can quikly create easily reusable chunks of code. But before diving into the template itself, We need to setup a <strong>nodejs</strong> environment. If you already have Node and Npm installed on your machine, you can skip the following sections.</p>
+<h3 id="npm">Npm</h3>
+<p>To start working with Bulkit, we are going to need the <code>Node Package Manager</code>, commonly known as <code>npm</code>. npm makes it easy for JavaScript developers to share and reuse code, and makes it easy to update the code that you&#x2019;re sharing, so you can build amazing things.</p>
+<h3 id="install-nodejs">Install nodejs</h3>
+<p>npm is distributed with Node.js, which means that when you download Node.js, you automatically get npm installed on your computer. First, check if you already have node and npm installed. To check if you have Node.js installed, run this command in your terminal:</p>
+<pre><code>node -v
+</code></pre><p>To confirm that you have npm installed you can run this command in your terminal:</p>
+<pre><code>npm -v
+</code></pre><p>If node is not installed on your machine, follow the steps described in one of the following guides, depending on your operating system:</p>
+<ul>
+<li><a href="https://treehouse.github.io/installation-guides/windows/node-windows.html" target="_blank">Install node.js and npm on Windows</a></li>
+<li><a href="https://www.ostechnix.com/install-node-js-linux/" target="_blank">Install node.js and npm on Linux</a></li>
+<li><a href="https://www.codementor.io/mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk" target="_blank">Install node.js and npm on Mac OSX</a></li>
+</ul>
+<h3 id="npm-versions">npm versions</h3>
+<p>npm is a separate project from Node.js, and tends to update more frequently. As a result, even if you&#x2019;ve just downloaded Node.js (and therefore npm), you&#x2019;ll probably need to update your npm. Luckily, npm knows how to update itself! To update your npm, type this into your terminal:</p>
+<pre><code>npm install npm@latest -g
+</code></pre><h3 id="installing-gulpjs">Installing gulp.js</h3>
+<p>Gulp is a &quot;Task runner&quot; served as a Frontend tool. It is capable of executing chunks of code and save you huge amounts of time. What gulp can do is very vast :</p>
+<ul>
+<li>Simple operations like CSS and Javascript minification / concatenation</li>
+<li>Directory creation or deletion, project creation from scratch</li>
+<li>Image optimization and compression</li>
+<li>Deploying a local server to run tests</li>
+<li>Ghost browser simulation to test display regressions etc ...</li>
+</ul>
+<p>To stay simple, Gulp will help you save tremendous amounts of time by handling recurring and automated tasks. You can then focus on your real work : produce clear and concise code, and get a coffee from time to time ! If you want to install Gulp globally on your machine, meaning that you will have access to its commands everywhere, follow the following steps. Otherwise jump to the next section.</p>
+<p>As soon as <code>node</code> and <code>npm</code> are installed, you can start instaling Gulp. In your terminal window, enter the following command :</p>
+<pre><code>npm install gulp -g
+</code></pre><p>! If you are working in a Linux or a Mac OSX environment, you will probably need to add the <code>sudo</code> command to have the required rights</p>
+<pre><code>sudo npm install gulp -g
+</code></pre><p>Gulp should now be installed and ready to serve.</p>
+<p>To work properly, it relies on 2 files that you can find at the root of the project :</p>
+<ul>
+<li><code>package.json</code></li>
+<li><code>gulpfile.js</code></li>
+</ul>
+<p>The <code>package.json</code> file lists all your project&apos;s developement and production dependencies installed via <code>npm</code>, an effective way to manage your project&apos;s assets consistently. The <code>gulpfile.js</code> file contains all the task that Gulp will perform once launched.</p>
+<h2 id="installing-bulkit">Installing Bulkit</h2>
+<p>Before we dive more in the Bulkit template, you need to learn how to install it and go through a little setup to make it functional and running. Create a new directory for your project. For the sake of the example, we will call it <code>my-project</code>. Unzip the contents of <strong>bulkit-template-4.1.0/bulkit-4.1.0/</strong> inside it. We will talk about the project structure in the upcoming section :</p>
+<p><code>cd path/to/my/project</code></p>
+<p>Once done, you need to install the project dependencies with <code>npm</code>, that we previously installed. Enter the following command at the root of the <code>my-project</code> folder :</p>
+<p><code>npm install</code></p>
+<p>This will automatically fecth all the dependencies listed in your <code>package.json</code> file.  This will also install them in your project (in a newly created directory named <code>node_modules</code>). Once the installation process is done, you are ready to start Gulp and begin developing. However, before you start we are going to take a closer look to the template structure, and to how things are organized.</p>
+<h1 id="template-structure">Template structure</h1>
+<p>This section is about the Bulkit File structure. Learning more about it will help setup the template quickly and easily.</p>
+<h2 id="global-structure">Global structure</h2>
+<pre><code>Bulkit
+|-- src
+|     |-- assets
+|     |      |-- font
+|     |      |-- img
+|     |      |-- js
+|     |      |-- sass
+|     |      |-- scss
+|     |      |     |-- abstracts
+|     |      |     |-- base
+|     |      |     |-- components
+|     |      |     |-- layout
+|     |      |     |-- pages
+|     |      |     |-- core.scss
+|     |      |
+|     |      |-- vendor
+|     |
+|     |-- data
+|     |-- layouts
+|     |-- pages
+|     |-- partials
+|
+|-- gulpfile.js
+|-- package.json
+|-- package-lock.json
+</code></pre><p>The directory structure can seem unusual for someone who is not used to build tools. We will break each part of it, so you understand how everything works.</p>
+<h2 id="assets-folder">Assets folder</h2>
+<pre><code>|-- src
+|     |-- assets
+|     |      |-- font
+|     |      |-- img
+|     |      |-- js
+|     |      |-- sass
+|     |      |-- scss
+|     |      |     |-- abstracts
+|     |      |     |-- base
+|     |      |     |-- components
+|     |      |     |-- layout
+|     |      |     |-- pages
+|     |      |     |-- demo.scss
+|     |      |     |-- main.scss
+|     |      |     |
+|     |      |-- vendor
+</code></pre><p>The main reason we are working with <code>npm</code> and <code>gulp</code> is that we want to keep our development process clean, as well as our dependencies management. This kind of setup highly increases the project&apos;s code maintainability and scalability. However, you&apos;ll be sometimes in a situation where you could need assets that are not served via <code>npm</code> or any package manager. That is the role of the <code>vendor</code> folder. You can add to it any external css, js, fonts or data that you will need to use in your project. However, always prefer the <code>npm</code> method when adding new assets. Use the assets folder only if you can&apos;t fetch your required dependency with <code>npm</code>.</p>
+<h2 id="bulma-folder">Bulma folder</h2>
+<pre><code>|-- sass
+|     |-- sass
+|     |-- bulma.sass
+</code></pre><p>When you installed the project by doing <code>npm install</code>, you also installed Bulma 0.9.1 as a project dependency. All bulma framework Sass source files are there. You can customize them to fit your needs or leave them as they are. If you do so, you will get the standard Bulma version (identical to the css file you can find in the bulma distibution folder in the official repo) when you build the project. We provided this option as numerous developers want to have control on this for code optimization purposes.</p>
+<p>! Edit the Bulma source files only if you know what you are doing as any faulty customization may completely break the layout.</p>
+<h2 id="layouts-folder">Layouts folder</h2>
+<pre><code>|-- src
+|     |-- layouts
+</code></pre><p>All the html layouts resides in this folder. For a more concise code, Bulkit uses a flat file compiler named <strong>Panini</strong>, by <strong>Zurb</strong>. Panini makes it easy to break your layouts into several reusable components, preventing you to go through every page to make your changes. You can find more information about <strong>zurb/panini</strong> by visiting the <a href="https://github.com/zurb/panini" target="_blank">official repository</a>. Bulkit follows the panini pattern for the html file structure.</p>
+<p>the <code>layouts</code> folder holds all the template layouts. It is <strong>mandatory</strong> to have at least one layout, and it should always be named <code>default.html</code>. Additional layouts can have the names you want, but don&apos;t forget the <code>.html</code> extension. A layout acts as container providing the same base for a set of similar pages.</p>
+<h2 id="pages-folder">Pages folder</h2>
+<pre><code>|-- src
+|     |-- pages
+</code></pre><p>The <code>pages</code> folder holds all the template pages. Pages are focused on content. They are related to a layout and automatically appended to it by <strong>panini</strong> when the page is served. You will always find the same statement at the top of each page&apos;s code :</p>
+<pre><code>---
+layout: default
+title: This is the page title
+---
+</code></pre><p>The <code>layout</code> statement tells <strong>panini</strong> wich layout to use to serve the page. The title element is a string that gets inserted as the page title when <strong>panini</strong> has finished assembling the page parts together. Now that we had a look to panini&apos;s basic features let&apos;s dive into the Bulkit html files :</p>
+<h2 id="component-pages">Component pages</h2>
+<p>Bulkit features 45 component pages wich feature numerous UI elements and variations. These pages reside inside the <strong>Demo-Kit</strong>. These pages are named following this naming convention: <code>_components_*category_*component.html</code> . Each category features different components and variations. You&apos;ll find detailed explanations and code examples that you can immediatly copy to start developping. The following categories are available :</p>
+<ul>
+<li><strong>Layout </strong></li>
+</ul>
+<p>Features building blocks that are relevant to layout such as <strong>Grid system</strong>, <strong>Navbars</strong>, <strong>Video background</strong>, <strong>Headers</strong>, <strong>Footers</strong>, <strong>Typography</strong> and <strong>Colors</strong>.</p>
+<ul>
+<li><strong>Sections </strong></li>
+</ul>
+<p>Features premade sections that you can copy and paste in your project pages, with little or no customization needed. Available sections are: <strong>Features sections</strong>, <strong>Pricing sections</strong>, <strong>Team sections</strong>, <strong>Testimonials sections</strong>, <strong>Client grids</strong>, <strong>Animated counters</strong> and <strong>Carousel sections</strong>.</p>
+<ul>
+<li><strong>Basic UI </strong></li>
+</ul>
+<p>Features premade first level components that you can easily reuse such as: <strong>Cards</strong>, <strong>Buttons</strong>, <strong>Dropdowns</strong>, <strong>Lists</strong>, <strong>Modals</strong>, <strong>Tabs &amp; pills</strong>, <strong>Accordions</strong>, <strong>Badges &amp; labels</strong> and <strong>Popups</strong>.</p>
+<ul>
+<li><strong>Advanced UI </strong></li>
+</ul>
+<p>Features premade first level components that you can easily reuse such as: <strong>Tables</strong>, <strong>Timeline</strong>, <strong>Boxes</strong>, <strong>Lists</strong>, and <strong>Messages</strong>.</p>
+<ul>
+<li><strong>Forms </strong></li>
+</ul>
+<p>Features premade inputs and form controls to help you build any kind of form including: <strong>Inputs</strong>, <strong>Controls</strong>, <strong>Form layouts</strong>, and <strong>File uploader</strong>.</p>
+<ul>
+<li><strong>Icons </strong></li>
+</ul>
+<p>Each page in this section lists the different icon collections Bulkit features, with their embed code. Available sets are <strong>Icons Mind</strong>, <strong>Font Awesome</strong>, <strong>Simple line Icons</strong> and <strong>Material Icons</strong>.</p>
+<h2 id="partials-folder">Partials folder</h2>
+<pre><code>|-- src
+|     |-- partials
+</code></pre><p>The <code>partials</code> folder holds all your html partials. Partials are chunks of code that you want to reuse as is accrosse your application : it can be a button, a navbar, a content section or whatever you want. Note that you can create as many subfolders as you want to organize your partials. You simply have to make sure that your partial names are unique. Partials are named like html files : <code>navbar.html</code>. When you want to call a partial in one of your <code>layouts</code> or <code>pages</code> use the following expression : <code>NaN</code>. You don&apos;t have to mention the path, even if it is nested in several subfolders, <strong>panini</strong> will find it. Also note that you don&apos;t have to add the html extension in your partial call.</p>
+<h2 id="images">Images</h2>
+<pre><code>|-- src
+|     |-- assets
+|     |      |-- img
+</code></pre><p>All the project images live in this folder. It can have as many subfolders as you want. When you build the projects, all these images are automatically transfered to the right location by Gulp. We will see that a bit later.</p>
+<h2 id="js">Js</h2>
+<pre><code>|-- src
+|     |-- assets
+|     |      |-- js
+|     |      |     |-- auth.js
+|     |      |     |-- contact.js
+|     |      |     |-- functions.js
+|     |      |     |-- index.js
+|     |      |     |-- main.js
+</code></pre><p>All of Bulkit own javascript files live in this folder. Edit them to change thee template functionality.</p>
+<h2 id="scss">Scss</h2>
+<pre><code>
+|-- assets
+|     |-- scss
+|     |     |-- abstracts
+|     |     |      |-- _*.scss
+|     |     |
+|     |     |-- components
+|     |     |      |-- _*.scss
+|     |     |
+|     |     |-- layout
+|     |     |      |-- _*.scss
+|     |     |
+|     |     |-- pages
+|     |     |      |-- _*.scss
+|     |     |
+|     |     |-- *.scss
+</code></pre><p>Bulkit relies on the powerful Sass features, letting you handle complex styles in a breeze. Bulkit relies on a modular scss structure. You need to import all the SCSS partials into your core file. This how scss files are organized.</p>
+<h3 id="core-and-partials">Core and partials</h3>
+<p>There are two main types of Scss files in Bulkit : Core and Partials.</p>
+<p><strong>Partial files</strong></p>
+<p><strong>Partial files</strong></p>
+<p>Partial SCSS file names <strong>always</strong> start with an underscore like this: <code>_testimonials.scss</code> . They act as chunks of code that you can import only if you need them. Of course some of them are mandatory for the project to work. For example, if you need to display cards in your project, you can import <code>scss/components/_cards.scss</code> to have access to the card components in your layout. We will see later that you need to load them in a specific order to avoid styling issues. SCSS partials are of several types:</p>
+<ul>
+<li>Global partials: partials that are common to all demos : <code>_variables.scss</code>. Importing <code>_variables.scss</code> is mandatory.</li>
+<li>Theme partials: 10 Themes are built in out of the box in Bulkit. Default is <code>scss/partials/_themes-main.scss</code> . You have to import a theme in your core SCSS file. Otherwise your site will be broken.</li>
+<li>Layout partials: Layout partials are all mandatory. You <strong>have</strong> to import them in order to setup a basic layout for your website.</li>
+<li>Component partials: Component partials are optional. However, you will need to add some to your project to hold the content you are planning publish. Bulkit&apos;s approach is modular, so you pick only what you use.</li>
+<li>Extensions partials: Bulkit is shipped with extensions such as Quickview, Colored checkboxes and many more. Each extension has its own scss partial that you can import if you need some of its features. Sometimes a javascript file is needed for the extension to work.</li>
+<li>Pages partials: Page partials are related to content served on Bulkit pages. Each demo kit used to have its own stylesheet, wich is was shared with others. For example, the Startup kit had its own partial named <code>_startup.scss</code>. You could find it in <code>scss/page/_startup.scss</code>. This is over in Bulkit 4.1. The files in there have changed name and role. They now are a collection of reusable elements that you can use in any page or any kit.</li>
+</ul>
+<p><strong>Core files</strong></p>
+<p>The core SCSS file is the heart of Bulkit&apos;s styles. Its main purpose is to centralize all styles. Every time you make a change in a partial file, it impacts the outputed <code>core.css</code> (or any other theme like <code>azur.scss</code>) file resulting from the compilation process. Core files start with imports of other partial SCSS files. Here is an example import statement:</p>
+<pre><code class="lang-scss"><span class="hljs-comment">/*! core.scss | Bulkit | CSS Ninja */</span>
+
+<span class="hljs-comment">/* ==========================================================================
+Core Theme
+========================================================================== */</span>
+
+<span class="hljs-comment">/***
+TABLE OF CONTENTS
+=============================================================================
+0. CSS Imports
+=============================================================================
+***/</span>
+
+<span class="hljs-comment">/* ==========================================================================
+0. CSS Imports
+========================================================================== */</span>
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;abstracts/variables&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;abstracts/themes-main&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;abstracts/shadows&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/utils&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/navbar&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/navbar-landing&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/sections&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/hero&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/footer&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/animations&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/navigation&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/pageloader&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/accordion&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/buttons&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/cards&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/boxes&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/tabs&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/testimonials&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/dialogs&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/forms&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/tables&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/lists&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/labels&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/messages&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/pricing&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/dropdowns&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/checkboxes&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/badge&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/range&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/ribbon&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/slider&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/switch&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/timeline&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/uploader&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/iconpicker&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/calendar&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;components/wallop&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/demo-landing&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/heading-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/text-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/hero-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/section-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/button-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/card-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/feature-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/team-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/faq-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/slider-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/portfolio-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/carousel-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/blog-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/contact-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/auth-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/media-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/ui-elements&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;pages/error-elements&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;utilities/hover-effects&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;utilities/material-shadows&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;utilities/video-embed&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;utilities/video-background&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/helpers&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;layout/responsive&quot;</span>;
+
+<span class="hljs-variable">$slick-font-path</span>: <span class="hljs-string">&quot;/assets/fonts/&quot;</span>;
+<span class="hljs-variable">$slick-loader-path</span>: <span class="hljs-string">&quot;/assets/fonts/&quot;</span>;
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;../../../node_modules/slick-carousel/slick/slick.scss&quot;</span>;
+@<span class="hljs-keyword">import</span> <span class="hljs-string">&quot;../../../node_modules/slick-carousel/slick/slick-theme.scss&quot;</span>;
+</code></pre>
+<p>! Notice how partials are imported. Whereas the actual partial file name starts with an underscore and ends with a .scss extension, when you write imports inside your <code>core.scss</code> file, you have to remove the undescore and the <code>.scss</code> extension.</p>
+<h3 id="imports">Imports</h3>
+<p>Let&apos;s break a bit the list of imports we saw above, so we can understand how the global stylesheet is structured and how it impacts the final outputed style.</p>
+<ol>
+<li>The first line imports <code>scss/abstracts/_variables.scss</code>. Importing this file is mandatory since it contains all core color variables. Without it, nothing will work and your pages will be broken.</li>
+<li>The second line is also part of mandatory imports. It imports the selected theme from <code>abstracts/_themes-main.scss</code>.  Each one of these theme files is used by one specific stylesheet. Each theme can be linked to one or several core files. For more consistency, we linked each theme to a single core file (beside the exception that we mentionned above). You can learn more about themes in the <a href="#">Theming section</a>.</li>
+<li>The following lines import layout partials from <code>layout/_*.scss</code>. All of these imports are mandatory for the theme to work, as they handle all animations, navbars, sections, footer and even the preloader.
+4.The components imports are up to you. However some of them like <code>components/_forms.scss</code> should normally be imported by everyone because... everybody needs forms on a website. But it is still up to you to decide wich components you will need or not in your project. The component imports are followed by extensions imports, if you need to use some special features.</li>
+<li>Before closing the imports, it&apos;s time to get your page specific partials. In the above example, we can see that the core imports <code>pages/_hero-elements.scss</code>, wich holds finition styles for all hero sections accross the template.</li>
+<li>At the very end, import the <code>layout/_helpers.scss</code> and the <code>layout/_responsive.scss</code>. Even if these partials belong to the layout group, they are imported at the end because they are meant to override previously defined styles. See the list of Helpers classes available for more details. The file <code>_responsive.scss</code> holds the global media queries that are common to all demos and applied at the theme scope.</li>
+</ol>
+<h3 id="link-the-core">Link the core</h3>
+<p>Once you finished writing your imports, and adding the basic css resets you want in your core file, you are ready to setup a new page. As we stated before, as soon as Gulp is running, your core file is immediatly outputed into a compiled css file. The css chunks from partials are appended one after another following the order defined in the imports. To import the core, just add a stylesheet link to the compiled css inside the <code>head</code> tags of one of your layout files, like <code>src/layouts/default.html</code>:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;assets/css/core.css&quot;</span>&gt;</span>
+</code></pre>
+<p>! Notice the `` elements wich tells panini to get back to the root of the project to find the css stylesheet.</p>
+<h2 id="root-files">Root files</h2>
+<p>There also a few files sitting at the root of the project that we need to discuss before getting into serious business:</p>
+<ul>
+<li><code>gulpfile.js</code> : Gulp will use this file to perform all the tasks it is supposed to accomplish.</li>
+<li><code>package.json</code> : Lists all your project&apos;s dependencies and gives useful metadata.</li>
+<li><code>package-lock.json</code> : Automatically generated for any operations where <code>npm</code> modifies either the <code>node_modules</code> tree, or package.json. It describes the exact tree that was generated, such that subsequent installs are able to generate identical trees, regardless of intermediate dependency updates.</li>
+</ul>
+<h1 id="working-with-gulp">Working with Gulp</h1>
+<p>In this section, we are briefly going to see how to use gulp and the Bulkit <code>gulpfile.js</code>.</p>
+<h2 id="available-modules">Available modules</h2>
+<p>Bulkit takes advantage of several gulp modules. We are going to see what each one does to give you a better understanding of what is happening. Let&apos;s see the modules used by our gulpfile :</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {src, dest, watch, series, parallel } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp&apos;</span>);
+<span class="hljs-keyword">const</span> log = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fancy-log&apos;</span>);
+<span class="hljs-keyword">const</span> colors = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;ansi-colors&apos;</span>);
+<span class="hljs-keyword">const</span> browserSync = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;browser-sync&apos;</span>).create();
+<span class="hljs-keyword">const</span> sass = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-sass&apos;</span>);
+<span class="hljs-keyword">const</span> bourbon = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;node-bourbon&apos;</span>).includePaths;
+<span class="hljs-keyword">const</span> rename = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-rename&apos;</span>);
+<span class="hljs-keyword">const</span> concat = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-concat&apos;</span>);
+<span class="hljs-keyword">const</span> del = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;del&apos;</span>);
+<span class="hljs-keyword">const</span> panini = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;panini&apos;</span>);
+<span class="hljs-keyword">const</span> uglify = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-uglify-es&apos;</span>).default;
+<span class="hljs-keyword">const</span> sourcemaps = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-sourcemaps&apos;</span>);
+<span class="hljs-keyword">const</span> imagemin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-imagemin&apos;</span>);
+<span class="hljs-keyword">const</span> removeCode = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-remove-code&apos;</span>);
+<span class="hljs-keyword">const</span> removeLog = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-remove-logging&apos;</span>);
+<span class="hljs-keyword">const</span> prettyHtml = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-pretty-html&apos;</span>);
+<span class="hljs-keyword">const</span> sassLint = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-sass-lint&apos;</span>);
+<span class="hljs-keyword">const</span> htmllint = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-htmllint&apos;</span>);
+<span class="hljs-keyword">const</span> jshint = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-jshint&apos;</span>);
+<span class="hljs-keyword">const</span> htmlreplace = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-html-replace&apos;</span>);
+<span class="hljs-keyword">const</span> newer = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-newer&apos;</span>);
+<span class="hljs-keyword">const</span> autoprefixer = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-autoprefixer&apos;</span>);
+<span class="hljs-keyword">const</span> accessibility = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-accessibility&apos;</span>);
+<span class="hljs-keyword">const</span> babel = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-babel&apos;</span>);
+<span class="hljs-keyword">const</span> nodepath = <span class="hljs-string">&apos;node_modules/&apos;</span>;
+<span class="hljs-keyword">const</span> assetspath = <span class="hljs-string">&apos;assets/&apos;</span>;
+</code></pre>
+<h2 id="gulp-plugins">Gulp Plugins</h2>
+<ul>
+<li><a href="https://www.npmjs.com/package/gulp-autoprefixer" target="_blank">gulp-autoprefixer</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-compile-handlebars" target="_blank">gulp-compile-handlebars</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-concat" target="_blank">gulp-concat</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-html-replace" target="_blank">gulp-html-replace</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-htmllint" target="_blank">gulp-htmllint</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-imagemin" target="_blank">gulp-imagemin</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-pretty-html" target="_blank">gulp-pretty-html</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-remove-code" target="_blank">gulp-remove-code</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-remove-logging" target="_blank">gulp-remove-logging</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-rename" target="_blank">gulp-rename</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-sass" target="_blank">gulp-sass</a></li>
+<li><a href="https://www.npmjs.com/package/node-bourbon" target="_blank">node-bourbon</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-sass-lint" target="_blank">gulp-sass-lint</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-sourcemaps" target="_blank">gulp-sourcemaps</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-uglify" target="_blank">gulp-uglify</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-newer" target="_blank">gulp-newer</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-accessibility" target="_blank">gulp-accessibility</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-jshint" target="_blank">gulp-jshint</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-gh-pages" target="_blank">gulp-gulp-gh-pages</a></li>
+<li><a href="https://www.npmjs.com/package/gulp-babel" target="_blank">gulp-babel</a></li>
+<li><a href="https://www.npmjs.com/package/panini" target="_blank">panini</a></li>
+<li><a href="https://www.npmjs.com/package/run-sequence" target="_blank">run-sequence</a></li>
+<li><a href="https://www.npmjs.com/package/ansi-colors" target="_blank">ansi-colors</a></li>
+<li><a href="https://www.npmjs.com/package/fancy" target="_blank">fancy-log</a></li>
+</ul>
+<h2 id="additional-variables">Additional variables</h2>
+<p>There are two additional variables that we define at the top of the file. We will need them to continue :</p>
+<ul>
+<li><code>assetspath</code> : a shortcut to get stuff from the <code>/assets</code> folder, so we don&apos;t expose our internal paths.</li>
+<li><code>nodepath</code> : a shortcut to get stuff from the <code>/node-modules</code> folder (created by npm), so we don&apos;t expose our internal paths.</li>
+</ul>
+<h2 id="gulp-tasks">Gulp tasks</h2>
+<p>We prepared a certain number of predefined tasks that will help you during all the development process. We will go through the <code>gulpfile.js</code> file to detail each one of this tasks.</p>
+<h3 id="server-task">Server task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">browserSyncInit</span>(<span class="hljs-params">done</span>) </span>{
+  browserSync.init({
+    server: <span class="hljs-string">&apos;./dist&apos;</span>
+  });
+  <span class="hljs-keyword">return</span> done();
+}
+</code></pre>
+<p>Gulp uses this task to create a <code>browser-sync</code> instance. It creates a local developement server and automatically opens a browser window showing <code>index.html</code>.</p>
+<h3 id="watch-task">Watch task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">watchFiles</span>(<span class="hljs-params"></span>) </span>{
+  watch(<span class="hljs-string">&apos;src/**/*.html&apos;</span>, compileHTML);
+  watch([<span class="hljs-string">&apos;src/assets/scss/**/*&apos;</span>, <span class="hljs-string">&apos;src/assets/scss/*&apos;</span>] , compileSCSS);
+  watch(<span class="hljs-string">&apos;src/assets/js/*.js&apos;</span>, compileJS);
+  watch(<span class="hljs-string">&apos;src/assets/img/**/*&apos;</span>, copyImages);
+}
+</code></pre>
+<p>Gulp uses this task to watch any change you make to the html and Sass files. When it detects changes, it triggers other tasks that handle Sass and html compilation.</p>
+<h3 id="clean-task">Clean task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">cleanDist</span>(<span class="hljs-params">done</span>) </span>{
+  del.sync(<span class="hljs-string">&apos;dist&apos;</span>);
+  <span class="hljs-keyword">return</span> done();
+}
+</code></pre>
+<p>Gulp uses this task to clean the <code>dist</code> folder, wich the result of the project build. At the moment you should not see any <code>dist</code> folder because you didn&apos;t build the project yet. This task is also used at the beginnning of the build process, to clean the folder before compilign the assets again.</p>
+<h3 id="bulma-task">Bulma task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setupBulma</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([nodepath + <span class="hljs-string">&apos;bulma/*.sass&apos;</span>, nodepath + <span class="hljs-string">&apos;bulma/**/*.sass&apos;</span>])
+    .pipe(dest(<span class="hljs-string">&apos;src/assets/sass/&apos;</span>));
+}
+</code></pre>
+<p>gulp uses this task to copy the Bulma source file from their location in the <code>_node-modules</code> folder to the <code>sass/</code> folder. As these assets are already copied in the project, you shouldn&apos;t need this task right now.</p>
+<h3 id="plugins-task">Plugins task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">concatPlugins</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+    nodepath + <span class="hljs-string">&apos;jquery/dist/jquery.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;feather-icons/dist/feather.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;typed.js/lib/typed.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;easy-autocomplete/dist/jquery.easy-autocomplete.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;alertifyjs/build/alertify.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;scrollreveal/dist/scrollreveal.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;ocanvas/build/dist/latest/ocanvas.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;slick-carousel/slick/slick.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;croppie/croppie.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;@fengyuanchen/datepicker/dist/datepicker.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;chosen-js/chosen.jquery.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;izitoast/dist/js/iziToast.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;webui-popover/dist/jquery.webui-popover.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;zoom-vanilla.js/dist/zoom-vanilla.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;scrollreveal/dist/scrollreveal.min.js&apos;</span>,
+    nodepath + <span class="hljs-string">&apos;card/dist/jquery.card.js&apos;</span>,
+    <span class="hljs-string">&apos;src/assets/vendor/js/*&apos;</span>,
+  ])
+    .pipe(sourcemaps.init())
+    .pipe(concat(<span class="hljs-string">&apos;app.js&apos;</span>))
+    .pipe(sourcemaps.write(<span class="hljs-string">&apos;./&apos;</span>))
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/js&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>Gulp uses this task to concatenate all the required plugins into a single file which gets pushed to <code>dist/assets/js/</code> folder. You can then access those plugins from there in your web pages.</p>
+<h3 id="assets-tasks">Assets tasks</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">copyImages</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src(<span class="hljs-string">&apos;src/assets/img/**/*.+(png|jpg|jpeg|gif|svg)&apos;</span>)
+    .pipe(newer(<span class="hljs-string">&apos;dist/assets/img/&apos;</span>))
+    .pipe(imagemin())
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/img/&apos;</span>))
+    .pipe(browserSync.stream());
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">copyFont</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+      <span class="hljs-string">&apos;src/assets/font/*&apos;</span>,
+    ])
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/fonts&apos;</span>))
+    .pipe(browserSync.stream());
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">copyData</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+    <span class="hljs-string">&apos;src/data/**/*&apos;</span>,
+  ])
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/data&apos;</span>))
+    .pipe(browserSync.stream());
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">jsVendor</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+      <span class="hljs-string">&apos;src/assets/vendor/js/*&apos;</span>,
+    ])
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/vendor/js&apos;</span>))
+    .pipe(browserSync.stream());
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">cssVendor</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+      <span class="hljs-string">&apos;src/assets/vendor/css/*&apos;</span>,
+
+    ])
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/vendor/css&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>gulp uses those tasks to copy all external assets and dependencies into the corresponding subfolder of the <code>dist/assets/</code> folder of the production site.</p>
+<h3 id="compile-sass-task">Compile Sass task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">compileSASS</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([<span class="hljs-string">&apos;src/assets/sass/bulma.sass&apos;</span>])
+    .pipe(sass({
+      outputStyle: <span class="hljs-string">&apos;compressed&apos;</span>,
+      sourceComments: <span class="hljs-string">&apos;map&apos;</span>,
+      sourceMap: <span class="hljs-string">&apos;sass&apos;</span>,
+      includePaths: bourbon
+    }).on(<span class="hljs-string">&apos;error&apos;</span>, sass.logError))
+    .pipe(autoprefixer(<span class="hljs-string">&apos;last 2 versions&apos;</span>))
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/css&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>Gulp uses this task to compile the bulma source files into a single css file. it then copies this file in <code>dist/assets/css/</code>.</p>
+<h3 id="compile-scss-task">Compile Scss task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">compileSCSS</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([<span class="hljs-string">&apos;src/assets/scss/main.scss&apos;</span>, <span class="hljs-string">&apos;src/assets/scss/demo.scss&apos;</span>])
+    .pipe(sass({
+      outputStyle: <span class="hljs-string">&apos;compressed&apos;</span>,
+      sourceComments: <span class="hljs-string">&apos;map&apos;</span>,
+      sourceMap: <span class="hljs-string">&apos;scss&apos;</span>,
+      includePaths: bourbon
+    }).on(<span class="hljs-string">&apos;error&apos;</span>, sass.logError))
+    .pipe(autoprefixer(<span class="hljs-string">&apos;last 2 versions&apos;</span>))
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/css&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>Gulp uses this task to compile the Bulkit Scss source files into a single css file (<code>main.css</code>). it then copies this file in <code>dist/assets/css/</code>.</p>
+<h3 id="compile-html-task">Compile Html task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">compileHTML</span>(<span class="hljs-params"></span>) </span>{
+  panini.refresh();
+  <span class="hljs-keyword">return</span> src(<span class="hljs-string">&apos;src/pages/**/*.html&apos;</span>)
+    .pipe(panini({
+      root: <span class="hljs-string">&apos;src/pages/&apos;</span>,
+      layouts: <span class="hljs-string">&apos;src/layouts/&apos;</span>,
+          <span class="hljs-comment">/*pageLayouts: {
+            //All pages inside src/pages/blog will use the blog.html layout
+            &apos;blog&apos;: &apos;blog&apos;
+          }*/</span>
+      partials: <span class="hljs-string">&apos;src/partials/&apos;</span>,
+      helpers: <span class="hljs-string">&apos;src/helpers/&apos;</span>,
+      data: <span class="hljs-string">&apos;src/data/&apos;</span>
+    }))
+    .pipe(dest(<span class="hljs-string">&apos;dist&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>Gulp uses this task to compile all the changes you make to the template html files. It the triggers a refresh from Panini to update your templates before rendering.</p>
+<h3 id="compile-js-task">Compile js task</h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">compileJS</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> src([
+      <span class="hljs-string">&apos;src/assets/js/_data-wishlist.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/_data-addresses.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/_data-orders.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/functions.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/Bulkit.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/authentication.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/cart.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/account.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/wishlist.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/product.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/orders.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/order.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/checkout.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/search.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/demo.js&apos;</span>,
+      <span class="hljs-string">&apos;src/assets/js/elements.js&apos;</span>,
+    ])
+    .pipe(babel())
+    .pipe(dest(<span class="hljs-string">&apos;dist/assets/js/&apos;</span>))
+    .pipe(browserSync.stream());
+}
+</code></pre>
+<p>Gulp uses this task to copy all your custom javascript to the distribution folder.</p>
+<h2 id="gulp-commands">Gulp commands</h2>
+<p>Now that we have seen that we have a lot of ready to use tasks for gulp. While you can run some of the above tasks individually, let&apos;s now see the available commands that make use of multiple tasks at once.</p>
+<h3 id="gulp-dev">gulp dev</h3>
+<p>Builds the project and runs a dev server. It runs several tasks that we defined above. Run it by typing this command in your terminal window, at the root of the project :</p>
+<p><code>gulp dev</code></p>
+<p>Here is what happens when you run <code>gulp dev</code> :</p>
+<ul>
+<li>Gulp deletes the <code>dist</code> folder</li>
+<li>Then, gulp executes all assets copying and compilation tasks :</li>
+</ul>
+<pre><code class="lang-js">series(cleanDist, copyFont, copyData, jsVendor, cssVendor, copyImages, compileHTML, concatPlugins, concatCssPlugins, compileJS, resetPages, prettyHTML, compileSASS, compileSCSS, browserSyncInit, watchFiles);
+</code></pre>
+<h2 id="setup-bulkit">Setup Bulkit</h2>
+<p>You should now have a basic understanding of what <strong>Gulp</strong> and <strong>Panini</strong> are doing. You are now ready to setup the project to start developing. We&apos;ve been talking about gulp and panini for ages but you&apos;ll quickly see how fast it is to setup your project. In your terminal window, change directory to the root of the kit of your choice :</p>
+<p><code>cd path/to/Bulkit/</code></p>
+<p>Then start  by building the project. Run the following command. It will also launch a development server in your browser window :</p>
+<p><code>gulp dev</code></p>
+<p>When the task starts, you should be redirected to your browser showing the <code>index.html</code> page. That&apos;s it, your project is now running. Every change you make to the html or scss files will trigger a code compilation and a browser refresh. Really easy isn&apos;t it ?</p>
+<h2 id="bulkit-plugins">Bulkit Plugins</h2>
+<p>As stated before, Bulkit&apos;s is based on a css only framework, Bulma.io. CSS only means there is no javascript shipped with it, unlike Bootstrap. Bulkit has its own javascript implementation of Bulma components using jQuery. You are free to use the existing implementations or to write your own if you want to. You could also use Bulkit in a Vue js project by using only the css and inspiring from jQuery to write Vue js methods. The choice is up to you. Bulkit has 3 main categories of javascript files :</p>
+<ul>
+<li>Core libraries</li>
+<li>Plugins</li>
+<li>Theme javascript</li>
+</ul>
+<h3 id="jquery">jQuery</h3>
+<p>Bulkit relies on 1 core library : <strong>jQuery</strong>. 99% of the available plugins are served using <code>npm</code>.</p>
+<h3 id="plugins">Plugins</h3>
+<p>Bulkit ships with many interesting javascript plugins that increase the frontend experience. If you want more details about plugin usage and initialization, please head to the <a href="#">js reference section</a>. Here is a list of the plugins used by Bulkit.</p>
+<ul>
+<li><strong>Innostudio file uploader</strong></li>
+</ul>
+<p>A premium jQuery plugin developed by Innostudio. Bulkit grants you a license to use this plugin in one of your projects. It lets you setup a beautiful file uploader for your projects. Read the plugin <a href="https://innostudio.de/fileuploader/documentation/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Chosen js</strong></li>
+</ul>
+<p>A plugin that transforms native html select boxes into beautiful and customizable select boxes with additional features. Read the plugin <a href="https://harvesthq.github.io/chosen/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Counterup</strong></li>
+</ul>
+<p>A plugin that makes easy to create animated counters. Notice that it relies on <a href="http://imakewebthings.com/waypoints/" target="_blank">Waypoints</a>, another javascript plugin that triggers events based on scroll position. Read the plugin <a href="https://github.com/bfintal/Counter-Up" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Covervid</strong></li>
+</ul>
+<p>Bulkit uses this plugin to display full height background videos. Read the plugin <a href="https://github.com/stefanerickson/covervid" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Datedropper</strong></li>
+</ul>
+<p>Datedropper is a jQuery timepicker plugin. It stands out by it&apos;s awesome design and features. Read the plugin <a href="http://felicegattuso.com/projects/datedropper/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Datepicker </strong></li>
+</ul>
+<p>jQuery Datepicker is a jQuery timepicker plugin. It has basic features and is a good choice if you are looking for a simple datepicker for your website. Read the plugin <a href="https://fengyuanchen.github.io/datepicker/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>easyAutocomplete  </strong></li>
+</ul>
+<p>A jQuery plugin that lets you easily setup an autocomplete input. You can also create custom templates for your autocomplete fields. Read the plugin <a href="http://easyautocomplete.com/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Datepicker </strong></li>
+</ul>
+<p>jQuery Datepicker is a jQuery timepicker plugin. It has basic features and is a good choice if you are looking for a simple datepicker for your website. Read the plugin <a href="https://fengyuanchen.github.io/datepicker/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Embed</strong></li>
+</ul>
+<p>Embed is a small jQuery plugin that lets you embed a Youtube or a Vimeo video inside your page. Nothing to configure, you just have to add the video url.</p>
+<ul>
+<li><strong>GGtooltip </strong></li>
+</ul>
+<p>A small plugin that helps you to display simple tooltips. Documentation can be found <a href="http://www.gigagit.com/item/ggtooltip-js-a-jquery-tooltip-plugin" target="_blank">here</a>.</p>
+<ul>
+<li><strong>GGpopover   </strong></li>
+</ul>
+<p>A small plugin that helps you to display nice popovers with many configuration options. Read the plugin <a href="http://demo.gigagit.com/ggpopover/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>gmapjs   </strong></li>
+</ul>
+<p>A small plugin that lets you display a google map on your web page. Documentation can be found <a href="https://hpneo.github.io/gmaps/" target="_blank">here</a>.</p>
+<ul>
+<li><strong>iziToast   </strong></li>
+</ul>
+<p>A nice jQuery plugin to display styled toast notifications on your website. It has many configuration options. Read the plugin <a href="http://izitoast.marcelodolce.com/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>jqdropdown   </strong></li>
+</ul>
+<p>A flexible and easy to use dropdown jQuery plugin. Read the plugin <a href="https://labs.abeautifulsite.net/jquery-dropdown/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>scrollreveal</strong></li>
+</ul>
+<p>A must have plugin if you want elements to animate on when visible on scroll. Read the plugin <a href="https://scrollrevealjs.org/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>scrollspy</strong></li>
+</ul>
+<p>Everybody knows Scrollspy from Bootstrap. This plugin has the same behaviour. Documentation can be found <a href="https://github.com/r3plica/Scrollspy" target="_blank">here</a>. </p>
+<ul>
+<li><strong>slick carousel</strong></li>
+</ul>
+<p>A powerful and highly customizable carousel with a very rich documentation. Read more about it <a href="http://kenwheeler.github.io/slick/" target="_blank">here</a>. </p>
+<ul>
+<li><strong>tagsinput</strong></li>
+</ul>
+<p>A simple component to transform a text input into a styled tags input.  Read more about it <a href="https://github.com/xoxco/jQuery-Tags-Input" target="_blank">here</a>. </p>
+<ul>
+<li><strong>timedropper</strong></li>
+</ul>
+<p>An original timepicker that can be customized. Read the plugin <a href="http://felicegattuso.com/projects/timedropper/" target="_blank">documentation</a> for more details about usage. </p>
+<ul>
+<li><strong>Vivusjs</strong></li>
+</ul>
+<p>Vivus is a svg animation library. It makes animating svg paths really easy. Read the plugin <a href="https://maxwellito.github.io/vivus/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Waypoints</strong></li>
+</ul>
+<p>Waypoints is a famous jQuery and vanilla js library that let&apos;s you setup events that trigger at  certain scroll position. The sticky plugin is also really useful to fix elements on scroll.  Read the plugin <a href="http://imakewebthings.com/waypoints/" target="_blank">documentation</a> for more details about usage.</p>
+<ul>
+<li><strong>Wallop slider</strong></li>
+</ul>
+<p>Wallop slider is an original and powerful slider. Beside being lightweight, it is highly customizable. Read more about it <a href="https://github.com/peduarte/wallop" target="_blank">here</a>.</p>
+<ul>
+<li><strong>Wickedpicker</strong></li>
+</ul>
+<p>A lightweight library that offers a nice timepicker to replace the boring html native one. Read more about it <a href="https://ericjgagnon.github.io/wickedpicker/" target="_blank">here</a>. </p>
+<h3 id="theme-javascript">Theme javascript</h3>
+<p>Bulkit comes with it&apos;s own javascript files.</p>
+<h4 id="global-js">Global js</h4>
+<p>We made some big changes here. As if now, <code>main.js</code> and <code>functions.js</code> are bulkit&apos;s main javascript files. They are used by almost every page that Bulkit features. <code>main.js</code> holds all plugin initialization but also custom component implementation. However, you should review it carefully before using it in production. Delete the parts that you don&apos;t need and customize it to fit your needs. <code>functions.js</code> is a big function library where you will find all the functions used by Bulkit.</p>
+<h1 id="theming">Theming</h1>
+<p>Bulkit is built in a css modular approach. We&apos;ve made it easy for you to customize theme colors. In this section, we are going to setup a project from scratch to help you get started.</p>
+<h2 id="creating-a-theme">Creating a Theme</h2>
+<p>Let&apos;s start from scratch to make you understand how you can do theming with bulkit.</p>
+<h3 id="add-a-new-theme">Add a new Theme</h3>
+<p>! If your <code>gulp</code>  watcher is still running in your terminal, we recommend you to stop it (<code>Ctrl + C</code>) before creating a new theme.</p>
+<p>Create a new file in <code>/src/assets/scss/abstracts/</code>. For the sake of the example, we will name this file <code>_themes-example.scss</code> . Notice the underscore at the start of the file name. Don&apos;t forget it or your project will break.</p>
+<h3 id="theme-colors">Theme colors</h3>
+<p>Each Bulkit theme uses the same color variables that you can customize to control colors accross the template. There are 3 main variables :</p>
+<ul>
+<li>Primary color</li>
+<li>Secondary color</li>
+<li>accent color</li>
+</ul>
+<p>Our new example theme will use primary red (<code>#f95c64</code>), secondary blue (<code>#325bff</code>) and accent purple (<code>#dc2dff</code>) as its main colors (these colors are just an example, do not use in production and pick your own colors instead). Lets create those new variables. Add this to your <code>src/assets/_themes-example.scss</code> file :</p>
+<pre><code class="lang-scss"><span class="hljs-comment">/*! _themes-example.scss | My project | My name */</span>
+
+<span class="hljs-comment">/* ==========================================================================
+Example theme variables and styles
+========================================================================== */</span>
+
+<span class="hljs-comment">//Theme color variables</span>
+<span class="hljs-variable">$primary</span>: <span class="hljs-number">#f95c64</span>;
+<span class="hljs-variable">$secondary</span>: <span class="hljs-number">#325bff</span>;
+<span class="hljs-variable">$accent</span>: <span class="hljs-number">#dc2dff</span>;
+</code></pre>
+<p>Every Bulkit component and layout element rely on these variables. Changing them will immediatly impact all colors on your project. </p>
+<h3 id="theme-gradient">Theme gradient</h3>
+<p>Every theme comes with a linear gradient based on primary and secondary colors (you can change that if you want, but defining the gradient is mandatory).  Add this to your <code>scss/abstracts/_themes-example.scss</code> file :</p>
+<pre><code class="lang-scss"><span class="hljs-comment">//Hero gradient</span>
+<span class="hljs-variable">$webkit-hero-gradient</span>: -webkit-linear-gradient(to right, <span class="hljs-variable">$accent</span>, <span class="hljs-variable">$secondary</span>);
+<span class="hljs-variable">$hero-gradient</span>: linear-gradient(to right, <span class="hljs-variable">$accent</span>, <span class="hljs-variable">$secondary</span>);
+</code></pre>
+<h3 id="theme-shadows">Theme shadows</h3>
+<p>Bulkit plays alot with colored box shadows. Box shadows inherit their colors from the 3 main variables:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th style="text-align:center">Hex</th>
+<th style="text-align:center">Rgb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$primary</td>
+<td style="text-align:center">#f95c64</td>
+<td style="text-align:center">rgb(249, 92, 100)</td>
+</tr>
+<tr>
+<td>$secondary</td>
+<td style="text-align:center">#325bff</td>
+<td style="text-align:center">rgb(50, 91, 255)</td>
+</tr>
+<tr>
+<td>$accent</td>
+<td style="text-align:center">#dc2dff</td>
+<td style="text-align:center">rgb(220, 45, 255)</td>
+</tr>
+</tbody>
+</table>
+<p>Now that we have our converted values, we can setup box shadows using the rgba format, wich adds the alpha channel for transparency. If you are using Scss you can simply put the variable name instead. Shadow variables now live in their own file, in <code>assets/scss/abstracts/_shadows.scss</code>.</p>
+<pre><code class="lang-scss"><span class="hljs-comment">//Primary box shadow</span>
+<span class="hljs-variable">$primary-shadow-from</span>: rgba(<span class="hljs-variable">$primary</span>, <span class="hljs-number">0.42</span>);
+<span class="hljs-variable">$primary-shadow-to</span>: rgba(<span class="hljs-variable">$primary</span>, <span class="hljs-number">0.2</span>);
+<span class="hljs-variable">$primary-box-shadow</span>:  <span class="hljs-number">0</span> <span class="hljs-number">14px</span> <span class="hljs-number">26px</span> -<span class="hljs-number">12px</span> <span class="hljs-variable">$primary-shadow-from</span>, <span class="hljs-number">0</span> <span class="hljs-number">4px</span> <span class="hljs-number">23px</span> <span class="hljs-number">0px</span> <span class="hljs-variable">$base-shadow</span>, <span class="hljs-number">0</span> <span class="hljs-number">8px</span> <span class="hljs-number">10px</span> -<span class="hljs-number">5px</span> <span class="hljs-variable">$primary-shadow-to</span> <span class="hljs-meta">!important</span>;
+
+<span class="hljs-comment">//Secondary box shadow</span>
+<span class="hljs-variable">$secondary-shadow-from</span>: rgba(<span class="hljs-variable">$secondary</span>, <span class="hljs-number">0.42</span>);
+<span class="hljs-variable">$secondary-shadow-to</span>: rgba(<span class="hljs-variable">$secondary</span>, <span class="hljs-number">0.2</span>);
+<span class="hljs-variable">$secondary-box-shadow</span>:  <span class="hljs-number">0</span> <span class="hljs-number">14px</span> <span class="hljs-number">26px</span> -<span class="hljs-number">12px</span> <span class="hljs-variable">$secondary-shadow-from</span>, <span class="hljs-number">0</span> <span class="hljs-number">4px</span> <span class="hljs-number">23px</span> <span class="hljs-number">0px</span> <span class="hljs-variable">$base-shadow</span>, <span class="hljs-number">0</span> <span class="hljs-number">8px</span> <span class="hljs-number">10px</span> -<span class="hljs-number">5px</span> <span class="hljs-variable">$secondary-shadow-to</span> <span class="hljs-meta">!important</span>;
+
+<span class="hljs-comment">//Accent box shadow</span>
+<span class="hljs-variable">$accent-shadow-from</span>: rgba(<span class="hljs-variable">$accent</span>, <span class="hljs-number">0.42</span>);
+<span class="hljs-variable">$accent-shadow-to</span>: rgba(<span class="hljs-variable">$accent</span>, <span class="hljs-number">0.2</span>);
+<span class="hljs-variable">$accent-box-shadow</span>:  <span class="hljs-number">0</span> <span class="hljs-number">14px</span> <span class="hljs-number">26px</span> -<span class="hljs-number">12px</span> <span class="hljs-variable">$accent-shadow-from</span>, <span class="hljs-number">0</span> <span class="hljs-number">4px</span> <span class="hljs-number">23px</span> <span class="hljs-number">0px</span> <span class="hljs-variable">$base-shadow</span>, <span class="hljs-number">0</span> <span class="hljs-number">8px</span> <span class="hljs-number">10px</span> -<span class="hljs-number">5px</span> <span class="hljs-variable">$accent-shadow-to</span> <span class="hljs-meta">!important</span>;
+</code></pre>
+<h3 id="theme-pageloader">Theme pageloader</h3>
+<p>Every theme customizes the default backgound color for the pageloader but it&apos;s not mandatory. You are free to do so only if you want to.</p>
+<pre><code class="lang-scss"><span class="hljs-comment">//Pageloader background color</span>
+<span class="hljs-selector-class">.pageloader</span> {
+    <span class="hljs-attribute">background</span>: <span class="hljs-variable">$primary</span> <span class="hljs-meta">!important</span>;
+}
+</code></pre>
+<h2 id="activating-a-theme">Activating a Theme</h2>
+<p>You&apos;re almost ready to start using your new theme but first, we need to wire it to the core scss file. You can create a new core file or edit the exitsing one. in this example, we will create a new theme based off the <code>_themes-main.scss</code> file that lives in the <code>assets/scss/abstracts/</code> folder.</p>
+<p>Start by creating a file named <code>_themes-example.scss</code> in the same folder and copy the contents of  <code>_themes-main.scss</code> in it.</p>
+<p>Open  <code>core.scss</code> with your favorite text editor and edit the theme import original statement</p>
+<pre><code class="lang-scss">@<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;themes-main&apos;</span>;
+</code></pre>
+<p>Change it to</p>
+<pre><code class="lang-scss">@<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;themes-example&apos;</span>;
+</code></pre>
+<p>Now start the Sass watcher with gulp:</p>
+<p><code>gulp dev</code></p>
+<p>Congratulations, your demo is setup with a brand new theme you just created. You are now ready to start customizing the template. Now that you have a global understanding of how Bulkit works, you can use the Css and Js reference sections of this documentation to get a grasp on Bulkit classes, classes modifiers and javascript options.</p>
+<h1 id="css-reference">Css reference</h1>
+<p>This is the css reference section. You will find here the most important element classes and their related modifiers.</p>
+<h2 id="layout">Layout</h2>
+<h3 id="grid-system">Grid system</h3>
+<h4 id="columns">Columns</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.columns</code></td>
+<td><code>is-vcentered</code></td>
+<td>Centers nested <code>column</code> elements verticaly using flexbox</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-multiline</code></td>
+<td>Makes the nested columns wrap into a new row when the end of the current row is reached</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-mobile</code></td>
+<td>Prevents columns from stacking on mobile devices</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-gapless</code></td>
+<td>Removes padding from children columns</td>
+</tr>
+</tbody>
+</table>
+<h4 id="column">Column</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.column</code></td>
+<td><code>is-half</code></td>
+<td>Makes the column take half of the available space</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-one-third</code></td>
+<td>Makes the column take 1/3 of the available space</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-two-thirds</code></td>
+<td>Makes the column take 2/3 of the available space</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-one-quarter</code></td>
+<td>Makes the column take 1/4 of the available space</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-*1-12</code></td>
+<td>Makes the column take a ammount of space corresponding to the specified number between 1 and 12</td>
+</tr>
+</tbody>
+</table>
+<h3 id="responsive-helpers">Responsive helpers</h3>
+<h4 id="display-helpers">Display helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.*</code></td>
+<td><code>is-flex-mobile</code></td>
+<td>Sets display to flex for the target element when device width is &lt; 768px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-tablet-only</code></td>
+<td>Sets display to flex for the target element when device width is between 769px and 1023px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-desktop-only</code></td>
+<td>Sets display to flex for the target element when device width is between 1024px and 1215px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-widescreen-only</code></td>
+<td>Sets display to flex for the target element when device width is between 1216px and 1407px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-touch</code></td>
+<td>Sets display to flex for the target element when device width is &gt; 1408px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-tablet</code></td>
+<td>Sets display to flex for the target element when device width is &gt; 768px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-desktop</code></td>
+<td>Sets display to flex for the target element when device width is &gt; 1024px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-widescreen</code></td>
+<td>Sets display to flex for the target element when device width is &gt; 1216px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-flex-fullhd</code></td>
+<td>Sets display to flex for the target element when device width is &gt; 1216px</td>
+</tr>
+</tbody>
+</table>
+<p>You can replace the keyword <code>flex</code> with the following parameters</p>
+<ul>
+<li><code>block</code></li>
+<li><code>inline</code></li>
+<li><code>inline-block</code></li>
+<li><code>inline-flex</code></li>
+</ul>
+<h4 id="hide-helpers">Hide helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.*</code></td>
+<td><code>is-hidden-mobile</code></td>
+<td>Hides the target element when device width is &lt; 768px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-tablet-only</code></td>
+<td>Hides the target element when device width is between 769px and 1023px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-desktop-only</code></td>
+<td>Hides the target element when device width is between 1024px and 1215px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-widescreen-only</code></td>
+<td>Hides the target element when device width is between 1216px and 1407px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-touch</code></td>
+<td>Hides the target element when device width is &gt; 1408px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-tablet</code></td>
+<td>Hides the target element when device width is &gt; 768px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-desktop</code></td>
+<td>Hides the target element when device width is &gt; 1024px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-widescreen</code></td>
+<td>Hides the target element when device width is &gt; 1216px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden-fullhd</code></td>
+<td>Hides the target element when device width is &gt; 1216px</td>
+</tr>
+</tbody>
+</table>
+<h3 id="general-helpers">General helpers</h3>
+<h4 id="heading-helpers">Heading helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.title</code></td>
+<td><code>is-*1-6</code></td>
+<td>Sets the title size on a scale of 1 to 6</td>
+</tr>
+<tr>
+<td><code>.subtitle</code></td>
+<td><code>is-*1-6</code></td>
+<td>Sets the subtitle size on a scale of 1 to 6</td>
+</tr>
+</tbody>
+</table>
+<h4 id="text-helpers">Text helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*</code></td>
+<td><code>is-size-*1-6</code></td>
+<td>Sets the target text size on a scale of 1 to 6</td>
+</tr>
+<tr>
+<td></td>
+<td><code>primary-text</code></td>
+<td>Sets the target text color to $primary</td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary-text</code></td>
+<td>Sets the target text color to $secondary</td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent-text</code></td>
+<td>Sets the target text color to $accent</td>
+</tr>
+<tr>
+<td></td>
+<td><code>info-text</code></td>
+<td>Sets the target text color to $blue</td>
+</tr>
+<tr>
+<td></td>
+<td><code>success-text</code></td>
+<td>Sets the target text color to $green</td>
+</tr>
+<tr>
+<td></td>
+<td><code>warning-text</code></td>
+<td>Sets the target text color to $orange</td>
+</tr>
+<tr>
+<td></td>
+<td><code>danger-text</code></td>
+<td>Sets the target text color to $red</td>
+</tr>
+<tr>
+<td></td>
+<td><code>dark-text</code></td>
+<td>Sets the target text color to $blue-grey</td>
+</tr>
+<tr>
+<td></td>
+<td><code>light-text</code></td>
+<td>Sets the target text color to $white</td>
+</tr>
+<tr>
+<td></td>
+<td><code>font-w-400</code></td>
+<td>Sets the target text font weight to 400</td>
+</tr>
+<tr>
+<td></td>
+<td><code>font-w-500</code></td>
+<td>Sets the target text font weight to 500</td>
+</tr>
+<tr>
+<td></td>
+<td><code>font-w-600</code></td>
+<td>Sets the target text font weight to 600</td>
+</tr>
+<tr>
+<td></td>
+<td><code>text-bolder</code></td>
+<td>Sets the target text font weight to 700</td>
+</tr>
+<tr>
+<td></td>
+<td><code>text-decoration-none</code></td>
+<td>Sets the <code>text-decoration</code> property to none</td>
+</tr>
+</tbody>
+</table>
+<h4 id="padding-helpers">Padding helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*</code></td>
+<td><code>no-padding</code></td>
+<td>Sets the target element padding to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-padding-left</code></td>
+<td>Sets the target element left padding to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-padding-right</code></td>
+<td>Sets the target element right padding to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-padding-top</code></td>
+<td>Sets the target element top padding to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-padding-bottom</code></td>
+<td>Sets the target element bottom padding to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>padding*10-100</code></td>
+<td>Sets the target element padding to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>pl*10-80</code></td>
+<td>Sets the target element left padding to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>pr*10-80</code></td>
+<td>Sets the target element right padding to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>pt*10-80</code></td>
+<td>Sets the target element top padding to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>pb*10-80</code></td>
+<td>Sets the target element bottom padding to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>huge-pt</code></td>
+<td>Sets the target element top padding to 100px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>huge-pb</code></td>
+<td>Sets the target element bottom padding to 100px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>giant-pb</code></td>
+<td>Sets the target element bottom padding to 150px</td>
+</tr>
+</tbody>
+</table>
+<h4 id="margin-helpers">Margin helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*</code></td>
+<td><code>no-margin</code></td>
+<td>Sets the target element margin to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-margin-left</code></td>
+<td>Sets the target element left  margin to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-margin-right</code></td>
+<td>Sets the target element right margi nto 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-margin-top</code></td>
+<td>Sets the target element top margin to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>no-margin-bottom</code></td>
+<td>Sets the target element bottom margin to 0</td>
+</tr>
+<tr>
+<td></td>
+<td><code>margin-x-auto</code></td>
+<td>Sets the target element margin to 0 auto</td>
+</tr>
+<tr>
+<td></td>
+<td><code>ml-auto</code></td>
+<td>Sets the target element left margin to auto</td>
+</tr>
+<tr>
+<td></td>
+<td><code>mr-auto</code></td>
+<td>Sets the target element right margin to auto</td>
+</tr>
+<tr>
+<td></td>
+<td><code>margin-*10-100</code></td>
+<td>Sets the target element margin to the number value</td>
+</tr>
+<tr>
+<td></td>
+<td><code>ml*10-80</code></td>
+<td>Sets the target element left margin to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>mr*10-80</code></td>
+<td>Sets the target element right margin to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>mt*10-80</code></td>
+<td>Sets the target element top margin to the specified number</td>
+</tr>
+<tr>
+<td></td>
+<td><code>mb*10-80</code></td>
+<td>Sets the target element bottom margin to the specified number</td>
+</tr>
+</tbody>
+</table>
+<h4 id="states-helpers">States helpers</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>*</code></td>
+<td><code>pull-right</code></td>
+<td>Adds <code>float: right</code> to target element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>pull-left</code></td>
+<td>Adds <code>float: left</code> to target element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-hidden</code></td>
+<td>Sets the target element to<code>display: none</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-vhidden</code></td>
+<td>Sets the target element to<code>visibility: hidden</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-disabled</code></td>
+<td>Disabled click events on target element</td>
+</tr>
+</tbody>
+</table>
+<h3 id="navbar">Navbar</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.navbar-wrapper</code></td>
+<td><code>navbar-minimal</code></td>
+<td>Makes the navbar transparent and static (dark version)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>navbar-minimal</code> + <code>navbar-light</code></td>
+<td>Makes the navbar transparent and static (light version)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>navbar-fade</code></td>
+<td>Makes the navbar fixed on scroll (dark version)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>navbar-fade</code> + <code>navbar-light</code></td>
+<td>Makes the navbar fixed on scroll (light version)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code></td>
+<td>Gives access to navbar color classes (must be used with one of the following classes)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-primary</code></td>
+<td>Makes the navbar background primary</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-secondary</code></td>
+<td>Makes the navbar background secondary</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-dark</code></td>
+<td>Makes the navbar background dark</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-blue</code></td>
+<td>Makes the navbar background blue</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-green</code></td>
+<td>Makes the navbar background green</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-orange</code></td>
+<td>Makes the navbar background orange</td>
+</tr>
+<tr>
+<td></td>
+<td><code>nav-reverse</code> + <code>nav-red</code></td>
+<td>Makes the navbar background red</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hero">Hero</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.hero</code></td>
+<td><code>is-medium</code></td>
+<td>Sets the hero header to medium size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>Sets the hero header to large size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-fullheight</code></td>
+<td>Sets the hero header to fullheight size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-relative</code></td>
+<td>Sets the hero position to relative</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-cover</code></td>
+<td>Sets the hero <code>background-size</code> property to <code>cover</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-primary</code></td>
+<td>Sets the hero background color to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-secondary</code></td>
+<td>Sets the hero background color to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-accent</code></td>
+<td>Sets the hero background color to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-info</code></td>
+<td>Sets the hero background color to <code>$info</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-success</code></td>
+<td>Sets the hero background color to <code>$success</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-warning</code></td>
+<td>Sets the hero background color to <code>$warning</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-theme-danger</code></td>
+<td>Sets the hero background color to <code>$danger</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-feature-grey</code></td>
+<td>Sets the hero background color to <code>$section-grey</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-light-grey</code></td>
+<td>Sets the hero background color to <code>$light-grey</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-coal</code></td>
+<td>Sets the hero background color to <code>$coal</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="sections">Sections</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.section</code></td>
+<td><code>is-medium</code></td>
+<td>Changes the section size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>Changes the section size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-relative</code></td>
+<td>Sets the element position to relative</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-cover</code></td>
+<td>Sets the hero <code>background-size</code> property to <code>cover</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>has-border-top</code></td>
+<td>Gives the element a top border</td>
+</tr>
+<tr>
+<td></td>
+<td><code>has-bottom-top</code></td>
+<td>Gives the element a bottom border</td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-light-grey</code></td>
+<td>Sets the element background color to <code>$light-grey</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-feature-grey</code></td>
+<td>Sets the element background color to <code>$section-grey</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-header-grey</code></td>
+<td>Sets the element background color to <code>$header-grey</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-feature-grey-accent</code></td>
+<td>Sets the element background color to <code>$section-grey-accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-primary</code></td>
+<td>Sets the element background color to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>section-secondary</code></td>
+<td>Sets the element background color to <code>$secondary</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="footer">Footer</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.footer</code></td>
+<td><code>footer-dark</code></td>
+<td>Changes the footer to use dark colors</td>
+</tr>
+<tr>
+<td></td>
+<td><code>footer-light</code></td>
+<td>Changes the footer to use light colors</td>
+</tr>
+<tr>
+<td></td>
+<td><code>footer-dark-left</code></td>
+<td>Changes left footer to use dark styles</td>
+</tr>
+<tr>
+<td></td>
+<td><code>footer-light-left</code></td>
+<td>Changes left footer to use light styles</td>
+</tr>
+<tr>
+<td></td>
+<td><code>footer-centered-dark</code></td>
+<td>Changes centered footer to use dark styles</td>
+</tr>
+<tr>
+<td></td>
+<td><code>footer-centered</code></td>
+<td>Changes centered footer to use light styles</td>
+</tr>
+</tbody>
+</table>
+<h2 id="components">Components</h2>
+<h3 id="simple-accordion">Simple accordion</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.simple-accordion-wrapper</code></td>
+<td><code>is-primary</code></td>
+<td>Sets the element header background to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>Sets the element header background to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>Sets the element header background to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>Sets the element header background to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>Sets the element header background to <code>$green</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="boxes">Boxes</h3>
+<h4 id="icon-box">Icon box</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.icon-box</code></td>
+<td><code>primary</code></td>
+<td>Sets the icon box colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary</code></td>
+<td>Sets the icon box colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent</code></td>
+<td>Sets the icon box colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>info</code></td>
+<td>Sets the icon box colors to <code>$info</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>success</code></td>
+<td>Sets the icon box colors to <code>$success</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>warning</code></td>
+<td>Sets the icon box colors to <code>$warning</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>danger</code></td>
+<td>Sets the icon box colors to <code>$danger</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="diamond-box">Diamond box</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.diamond-box</code></td>
+<td><code>primary</code></td>
+<td>Sets the icon box colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary</code></td>
+<td>Sets the icon box colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent</code></td>
+<td>Sets the icon box colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>info</code></td>
+<td>Sets the icon box colors to <code>$info</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>success</code></td>
+<td>Sets the icon box colors to <code>$success</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>warning</code></td>
+<td>Sets the icon box colors to <code>$warning</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>danger</code></td>
+<td>Sets the icon box colors to <code>$danger</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="square-icon-box">Square icon box</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.square-icon-box</code></td>
+<td><code>primary</code></td>
+<td>Sets the icon box colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary</code></td>
+<td>Sets the icon box colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent</code></td>
+<td>Sets the icon box colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>info</code></td>
+<td>Sets the icon box colors to <code>$info</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>success</code></td>
+<td>Sets the icon box colors to <code>$success</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>warning</code></td>
+<td>Sets the icon box colors to <code>$warning</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>danger</code></td>
+<td>Sets the icon box colors to <code>$danger</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>rounded</code></td>
+<td>Makes the icon rounded instead of the default square shape</td>
+</tr>
+</tbody>
+</table>
+<h4 id="shadow-icon-box">Shadow icon box</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.shadow-icon-box</code></td>
+<td><code>is-primary</code></td>
+<td>Sets the icon box colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>Sets the icon box colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>Sets the icon box colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>Sets the icon box colors to <code>$info</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>Sets the icon box colors to <code>$success</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>Sets the icon box colors to <code>$warning</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>Sets the icon box colors to <code>$danger</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>rounded</code></td>
+<td>Makes the icon rounded instead of the default square shape</td>
+</tr>
+</tbody>
+</table>
+<h3 id="buttons">Buttons</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.button</code></td>
+<td><code>is-small</code></td>
+<td>Small button size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>Medium button size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>Large button size</td>
+</tr>
+<tr>
+<td></td>
+<td><code>button-cta</code></td>
+<td>Transforms a simple button into a big cta button</td>
+</tr>
+<tr>
+<td></td>
+<td><code>button-cta</code> + <code>btn-outlined</code></td>
+<td>Transforms a simple button into a big outlined cta button</td>
+</tr>
+<tr>
+<td></td>
+<td><code>button-cta</code> + <code>btn-outlined</code> + <code>is-bold</code></td>
+<td>Transforms a simple button into a big outlined cta button with a thick border</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-align</code></td>
+<td>Ajusts standard buttons padding</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-align-md</code></td>
+<td>Ajusts medium buttons padding</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-align-lg</code></td>
+<td>Ajusts large buttons padding</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-upper</code></td>
+<td>Changes a button <code>text-transform</code> property to <code>uppercase</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>rounded</code></td>
+<td>Makes a button edges rounded</td>
+</tr>
+<tr>
+<td></td>
+<td><code>raised</code></td>
+<td>Adds a box shadow to a button when hovered</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-raised</code></td>
+<td>Permanently adds a box shadow to a button</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-fade</code></td>
+<td>Reduces a button opacity when hovered</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-outlined</code></td>
+<td>Creates an outlined button that gets filled when hovered</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-link</code></td>
+<td>Creates a link style button</td>
+</tr>
+<tr>
+<td></td>
+<td><code>btn-square</code></td>
+<td>Creates a square shaped button</td>
+</tr>
+<tr>
+<td></td>
+<td><code>primary-btn</code></td>
+<td>Makes a button background color <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary-btn</code></td>
+<td>Makes a button background color <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent-btn</code></td>
+<td>Makes a button background color <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>info-btn</code></td>
+<td>Makes a button background color <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>success-btn</code></td>
+<td>Makes a button background color <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>warning-btn</code></td>
+<td>Makes a button background color <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>danger-btn</code></td>
+<td>Makes a button background color <code>$danger</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="cards">Cards</h3>
+<h4 id="feature-card">Feature card</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.feature-card</code></td>
+<td><code>card-md</code></td>
+<td>Sets the card height to 350px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>card-lg</code></td>
+<td>Sets the card height to 400px</td>
+</tr>
+<tr>
+<td></td>
+<td><code>light-bordered</code></td>
+<td>Gives a light border to the card element target</td>
+</tr>
+<tr>
+<td></td>
+<td><code>card-shadow</code></td>
+<td>Gives a predefined box shadow to the target card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>hover-inset</code></td>
+<td>Gives a predefined inset box shadow to the target card element when hovered</td>
+</tr>
+</tbody>
+</table>
+<h4 id="flex-card">Flex card</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.flex-card</code></td>
+<td><code>primary-card</code></td>
+<td>Sets the card background color to <code>primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>secondary-card</code></td>
+<td>Sets the card background color to <code>secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>accent-card</code></td>
+<td>Sets the card background color to <code>accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>card-overflow</code></td>
+<td>Sets the target flex card <code>overflow</code> property to <code>visible</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>light-bordered</code></td>
+<td>Gives a light border to the target flex card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>simple-shadow</code></td>
+<td>Adds an extra light box shadow to the target flex card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>light-raised</code></td>
+<td>Adds a light box shadow to the target flex card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>raised</code></td>
+<td>Adds a heavy box shadow to the target flex card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>hover-raised</code></td>
+<td>Adds an heavy box shadow on hover to the target flex card element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>hover-inset</code></td>
+<td>Adds an inset box shadow on hover to the target flex card element</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dialogs">Dialogs</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.modal</code></td>
+<td><code>modal-sm</code></td>
+<td>change the size of the modal dialog to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>modal-hero</code></td>
+<td>changes the modal overlay background color to the current theme predefined gradient</td>
+</tr>
+<tr>
+<td></td>
+<td><code>modal-success</code></td>
+<td>changes the modal overlay background color to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>modal-info</code></td>
+<td>changes the modal overlay background color to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>modal-warning</code></td>
+<td>changes the modal overlay background color to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>modal-error</code></td>
+<td>changes the modal overlay background color to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="dropdowns">Dropdowns</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.dropOut</code></td>
+<td><code>is-primary</code></td>
+<td>sets the dropdown menu item background color to <code>$primary</code> when hovered</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the dropdown menu item background color to <code>$secondary</code> when hovered</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the dropdown menu item background color to <code>$accent</code> when hovered</td>
+</tr>
+</tbody>
+</table>
+<h3 id="forms">Forms</h3>
+<h4 id="inputs">Inputs</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.input</code></td>
+<td><code>is-small</code></td>
+<td>sets the target input element size to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>sets the target input element size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>sets the target input element size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>rounded</code></td>
+<td>makes the edges of the target input element rounded</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary-focus</code></td>
+<td>sets the target input element border color to <code>$primary</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary-focus</code></td>
+<td>sets the target input element border color to <code>$secondary</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent-focus</code></td>
+<td>sets the target input element border color to <code>$accent</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-grey-focus</code></td>
+<td>sets the target input element border color to <code>$title-grey</code> when focused</td>
+</tr>
+</tbody>
+</table>
+<h4 id="textareas">Textareas</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.textarea</code></td>
+<td><code>is-grow</code></td>
+<td>transforms a basic textarea into an animated textarea on focus</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-default-focus</code></td>
+<td>sets the target input element border color to <code>$default-input</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary-focus</code></td>
+<td>sets the target input element border color to <code>$primary</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary-focus</code></td>
+<td>sets the target input element border color to <code>$secondary</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent-focus</code></td>
+<td>sets the target input element border color to <code>$accent</code> when focused</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-grey-focus</code></td>
+<td>sets the target input element border color to <code>$title-grey</code> when focused</td>
+</tr>
+</tbody>
+</table>
+<h4 id="material-inputs">Material inputs</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.control-material</code></td>
+<td><code>is-primary</code></td>
+<td>sets the target material input element label and border colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target material input element label and border colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target material input element label and border colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-light</code></td>
+<td>sets the target material input element label and border colors to <code>$white</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="radio-group">Radio group</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.radio-wrap</code></td>
+<td><code>is-small</code></td>
+<td>sets the size of the target radio group to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>sets the size of the target radio group to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the dot color of the target radio group to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the dot color of the target radio group to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the dot color of the target radio group to <code>$accent</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="labels">Labels</h3>
+<h4 id="badge">Badge</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.b-badge</code></td>
+<td><code>rounded</code></td>
+<td>makes the target badge element rounded</td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-outlined</code></td>
+<td>makes the target badge element outlined</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the target badge element color to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target badge element color to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target badge element color to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>sets the target badge element color to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>sets the target badge element color to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>sets the target badge element color to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>sets the target badge element color to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="tags">Tags</h4>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.tag</code></td>
+<td><code>squared</code></td>
+<td>makes the target tag element edges squared</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-outlined</code></td>
+<td>makes the target tag element outlined</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>sets the target tag element size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>sets the target tag element size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the target tag element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target tag element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target tag element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>sets the target tag element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>sets the target tag element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>sets the target tag element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>sets the target tag element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="list-block">List block</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.list-block</code></td>
+<td><code>bordered</code></td>
+<td>gives borders to a list block element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>minimal</code></td>
+<td>removes borders and gives a box shadow to a list block element</td>
+</tr>
+</tbody>
+</table>
+<h3 id="messages">Messages</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.message</code></td>
+<td><code>msg-primary</code></td>
+<td>sets the target message element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-secondary</code></td>
+<td>sets the target message element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-accent</code></td>
+<td>sets the target message element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-info</code></td>
+<td>sets the target message element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-success</code></td>
+<td>sets the target message element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-warning</code></td>
+<td>sets the target message element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>msg-danger</code></td>
+<td>sets the target message element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="extensions">Extensions</h2>
+<h3 id="badge">Badge</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.badge</code></td>
+<td><code>is-badge-left</code></td>
+<td>positions the target badge element on the left of its container</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-bottom</code></td>
+<td>positions the target badge element at the bottom of its container</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-bottom-left</code></td>
+<td>positions the target badge element at the bottom left of its container</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-small</code></td>
+<td>sets the target badge element size to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-medium</code></td>
+<td>sets the target badge element size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-large</code></td>
+<td>sets the target badge element size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-badge-outlined</code></td>
+<td>makes the target badge element outlined</td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-primary</code></td>
+<td>sets the target badge element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-secondary</code></td>
+<td>sets the target badge element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-accent</code></td>
+<td>sets the target badge element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-info</code></td>
+<td>sets the target badge element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-success</code></td>
+<td>sets the target badge element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-warning</code></td>
+<td>sets the target badge element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>badge-danger</code></td>
+<td>sets the target badge element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="checkboxes">Checkboxes</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.b-checkbox</code></td>
+<td><code>is-circular</code></td>
+<td>makes the target b-checkbox element circular</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-inline</code></td>
+<td>sets the target b-checkbox element <code>display</code> property to <code>inline</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the target b-checkbox element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target b-checkbox element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target b-checkbox element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>sets the target b-checkbox element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>sets the target b-checkbox element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>sets the target b-checkbox element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>sets the target b-checkbox element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="range-inputs">Range inputs</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>input[type=range]</code></td>
+<td><code>is-small</code></td>
+<td>sets the target range input element size to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>sets the target range input element size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>sets the target range input element size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the target range input element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target range input element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target range input element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>sets the target range input element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>sets the target range input element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>sets the target range input element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>sets the target range input element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="switch">Switch</h3>
+<table>
+<thead>
+<tr>
+<th>Main class</th>
+<th>Modifier</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.switch[type=&quot;checkbox&quot;]</code></td>
+<td><code>is-outlined</code></td>
+<td>makes the target switch element outlined</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-thin</code></td>
+<td>applies the thin style to the target switch element</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-small</code></td>
+<td>sets the target switch element size to small</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-medium</code></td>
+<td>sets the target switch element size to medium</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-large</code></td>
+<td>sets the target switch element size to large</td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-primary</code></td>
+<td>sets the target switch element colors to <code>$primary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-secondary</code></td>
+<td>sets the target switch element colors to <code>$secondary</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-accent</code></td>
+<td>sets the target switch element colors to <code>$accent</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-info</code></td>
+<td>sets the target switch element colors to <code>$blue</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-success</code></td>
+<td>sets the target switch element colors to <code>$green</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-warning</code></td>
+<td>sets the target switch element colors to <code>$orange</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>is-danger</code></td>
+<td>sets the target switch element colors to <code>$red</code></td>
+</tr>
+</tbody>
+</table>
+<h1 id="js-reference">Js reference</h1>
+<p>This is the javascript reference section. You will find here what you need to know to get started with the theme&apos;s js.</p>
+<h2 id="pageloader">Pageloader</h2>
+<p>If you wish to change the behaviour of the pageloader component, you&apos;ll want to edit the snippet in <code>bulkit/assets/js/common.js</code> file. Here is the snippet that controls the pageloader :</p>
+<pre><code class="lang-js">$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+
+    <span class="hljs-comment">//Page loader</span>
+    <span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.pageloader&apos;</span>).length) {
+
+        $(<span class="hljs-string">&apos;.pageloader&apos;</span>).toggleClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+
+        $(<span class="hljs-built_in">window</span>).on(<span class="hljs-string">&apos;load&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">var</span> pageloaderTimeout = setTimeout( <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+            $(<span class="hljs-string">&apos;.pageloader&apos;</span>).toggleClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+            $(<span class="hljs-string">&apos;.infraloader&apos;</span>).toggleClass(<span class="hljs-string">&apos;is-active&apos;</span>)
+            clearTimeout( pageloaderTimeout );
+        }, <span class="hljs-number">700</span> );
+        })
+    }
+});
+</code></pre>
+<h2 id="navbar">Navbar</h2>
+<h3 id="responsive-toggle">Responsive toggle</h3>
+<p>If you want to change the way the responsive menu toggle behaves, you need to edit this code, that you can find in  <code>bulkit/assets/js/main.js</code> :</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Mobile menu toggle</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.nav-toggle&apos;</span>).length) {
+    $(<span class="hljs-string">&apos;.nav-toggle&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        $(<span class="hljs-keyword">this</span>).toggleClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+        <span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.nav-menu&apos;</span>).hasClass(<span class="hljs-string">&apos;is-active&apos;</span>)) {
+            $(<span class="hljs-string">&apos;.nav-menu&apos;</span>).removeClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+        } <span class="hljs-keyword">else</span> {
+            $(<span class="hljs-string">&apos;.nav-menu&apos;</span>).addClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+        }
+        <span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.navbar-wrapper&apos;</span>).hasClass(<span class="hljs-string">&apos;navbar-fade&apos;</span>, <span class="hljs-string">&apos;navbar-light&apos;</span>)) {
+            $(<span class="hljs-string">&apos;.navbar-wrapper&apos;</span>).toggleClass(<span class="hljs-string">&apos;mobile-menu-dark&apos;</span>);
+        }
+    });
+}
+</code></pre>
+<h3 id="navbar-fade">Navbar fade</h3>
+<p>You can turn the static top navigation to a navbar that fades in and out when you scroll the window. You just need to add the <code>navbar-fade</code> class to the <code>navbar-wrapper</code> element. You will find the javascript code that controls that behaviour in <code>bulkit/assets/js/main.js</code> :</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Sticky scroll navbar</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.navbar-wrapper.navbar-fade&apos;</span>).length) {
+    $(<span class="hljs-string">&quot;.navbar-wrapper.navbar-fade&quot;</span>).wrap(<span class="hljs-string">&apos;&lt;div class=&quot;navbar-placeholder&quot;&gt;&lt;/div&gt;&apos;</span>);
+    $(<span class="hljs-string">&quot;.navbar-placeholder&quot;</span>).height(jQuery(<span class="hljs-string">&quot;.navbar-wrapper.navbar-fade&quot;</span>).outerHeight());
+    $(<span class="hljs-built_in">window</span>).scroll(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{    <span class="hljs-comment">// this will work when your window scrolled.</span>
+        <span class="hljs-keyword">var</span> height = $(<span class="hljs-built_in">window</span>).scrollTop();  <span class="hljs-comment">//getting the scrolling height of window</span>
+        <span class="hljs-keyword">if</span>(height  &gt; <span class="hljs-number">65</span>) {
+            $(<span class="hljs-string">&quot;.navbar-wrapper.navbar-fade&quot;</span>).removeClass(<span class="hljs-string">&apos;navbar-fade&apos;</span>).addClass(<span class="hljs-string">&apos;translateDown navbar-sticky&apos;</span>);
+        } <span class="hljs-keyword">else</span>{
+            $(<span class="hljs-string">&quot;.navbar-wrapper.navbar-sticky&quot;</span>).removeClass(<span class="hljs-string">&apos;translateDown navbar-sticky&apos;</span>).addClass(<span class="hljs-string">&apos;navbar-fade&apos;</span>);
+        }
+    });
+}
+</code></pre>
+<p>! Notice that it will be enough if you use the standard sticky navbar (e.g with normal logo and dark text colors). But if you choose to add the <code>navbar-light</code> class to the <code>.navbar-wrapper.navbar-fade</code> element, your navbar will turn to light colors (you will need it for colored hero sections). You will then need another snippet to control the color transitions and the logo replacement when the window is scrolled and the solid navbar comes in. You can find this snippet in the js files related to prebuilt kits as each kit needs to have its own logo color. Also, don&apos;t forget to add the <code>light-logo</code> class to the <code>navbar-light</code> logo, so the logo transition can be executed on scroll.</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- Setting up the light fade navbar --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;navbar-wrapper navbar-fade navbar-light&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- identifying the logo as the light logo --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;nav-item&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;landing.html&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;light-logo&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;assets/images/logos/bulkit-w.png&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</code></pre>
+<p>Here is an example with the standard bulkit logo:</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Toggle between light and dark logo when solid navbar comes in</span>
+$(<span class="hljs-built_in">window</span>).scroll(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{    <span class="hljs-comment">// this will work when your window scrolled.</span>
+    <span class="hljs-keyword">var</span> height = $(<span class="hljs-built_in">window</span>).scrollTop();  <span class="hljs-comment">//getting the scrolling height of window</span>
+    <span class="hljs-keyword">if</span>(height  &gt; <span class="hljs-number">80</span>) {
+        $(<span class="hljs-string">&quot;img.light-logo&quot;</span>).attr(<span class="hljs-string">&quot;src&quot;</span>,<span class="hljs-string">&quot;assets/images/logos/bulkit-logo.png&quot;</span>);
+    } <span class="hljs-keyword">else</span>{
+        $(<span class="hljs-string">&quot;img.light-logo&quot;</span>).attr(<span class="hljs-string">&quot;src&quot;</span>,<span class="hljs-string">&quot;assets/images/logos/bulkit-w.png&quot;</span>);
+    }
+});
+
+<span class="hljs-comment">//This toggles the Sign up button color from white to primary when the window is scrolled</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.navbar-light&apos;</span>).length) {
+    $(<span class="hljs-built_in">window</span>).scroll(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{    <span class="hljs-comment">// this will work when your window scrolled.</span>
+        <span class="hljs-keyword">var</span> height = $(<span class="hljs-built_in">window</span>).scrollTop();  <span class="hljs-comment">//getting the scrolling height of window</span>
+        <span class="hljs-keyword">if</span>(height  &gt; <span class="hljs-number">80</span>) {
+            $(<span class="hljs-string">&apos;.button-signup&apos;</span>).removeClass(<span class="hljs-string">&apos;light-btn&apos;</span>).addClass(<span class="hljs-string">&apos;primary-btn&apos;</span>);
+        } <span class="hljs-keyword">else</span>{
+            $(<span class="hljs-string">&apos;.button-signup&apos;</span>).removeClass(<span class="hljs-string">&apos;primary-btn&apos;</span>).addClass(<span class="hljs-string">&apos;light-btn&apos;</span>);
+        }
+    });
+}
+</code></pre>
+<h2 id="sidebar">Sidebar</h2>
+<p>The sidebar menu is easy to control, this is how it is triggered. you can find the code in  <code>bulkit/assets/js/main.js</code> .</p>
+<pre><code class="lang-js"><span class="hljs-comment">//trigger sidebar</span>
+$(<span class="hljs-string">&apos;#navigation-trigger, .navigation-trigger, .navigation-close&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    $(<span class="hljs-string">&apos;.side-navigation-menu&apos;</span>).toggleClass(<span class="hljs-string">&apos;is-active&apos;</span>);
+})
+</code></pre>
+<p>When you click on the category buttons of the sidebar (represented with icons on the left), the sidebar menu content changes. This is controlled with data attributes. If you want to add a new sidebar menu, add some markup (see the structure below) to the sidebar and give it a unique ID :</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- Navigation menu --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;my-menu&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;navigation-menu-wrapper animated preFadeInRight fadeInRight is-hidden&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- Navigation Header --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;navigation-menu-header&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Components<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;ml-auto hamburger-btn navigation-close&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:void(0);&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;menu-toggle&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-box-toggle&quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;rotate&quot;</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-line-top&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-line-center&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-line-bottom&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- Navigation body --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;navigation-menu&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;has-children&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;parent-link&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;material-icons&quot;</span>&gt;</span>view_quilt<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>Layout<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;is-submenu&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;some_page.html&quot;</span>&gt;</span>A menu item<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;is-submenu&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;some_page.html&quot;</span>&gt;</span>Another item<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;is-submenu&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;some_page.html&quot;</span>&gt;</span>A third item<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>
+</span></code></pre>
+<p>Then, create a new category button :</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;categories&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;category-link&quot;</span> <span class="hljs-attr">data-navigation-menu</span>=<span class="hljs-string">&quot;my-menu&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon some-icon&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</code></pre>
+<p>Notice how the <code>data-navigation-menu</code> attribute is pointing to the newly created menu ID. This is how you link them.</p>
+<p>Here is the code that controls that <code>data-attribute</code> :</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Data navigation menu setup</span>
+$(<span class="hljs-string">&apos;.category-link&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">var</span> category_id = $(<span class="hljs-keyword">this</span>).attr(<span class="hljs-string">&apos;data-navigation-menu&apos;</span>);
+    $(<span class="hljs-string">&apos;.navigation-menu-wrapper&apos;</span>).addClass(<span class="hljs-string">&apos;is-hidden&apos;</span>);
+    $(<span class="hljs-string">&quot;#&quot;</span> + category_id).removeClass(<span class="hljs-string">&apos;is-hidden&apos;</span>);
+})
+</code></pre>
+<h2 id="parallax">Parallax</h2>
+<p>Bulkit comes with built-in parallax hero and section. You can quickly setup a parallax header or section by adding the <code>parallax</code> class to a <code>.hero</code> or <code>.section</code> element. You will also need to add the <code>is-relative</code> class to the target element so the parallax overlay can be positioned correctly. You can also add the <code>is-cover</code> class wich is shortcut to <code>background-size: cover</code> .</p>
+<p>You can also use data-attributes to pass some additional options like a background image, the overlay color and the overlay opacity. Here is an example of a Parallax hero markup</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- Fullheight Parallax Hero --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hero parallax is-cover is-relative is-fullheight&quot;</span>
+    <span class="hljs-attr">data-background</span>=<span class="hljs-string">&quot;assets/images/bg/good-morning.jpeg&quot;</span>
+    <span class="hljs-attr">data-color</span>=<span class="hljs-string">&quot;#7F00FF&quot;</span>
+    <span class="hljs-attr">data-color-opacity</span>=<span class="hljs-string">&quot;0.8&quot;</span>&gt;</span>
+</code></pre>
+<p>! The <code>data-color</code> attribute only accepts hex values</p>
+<h2 id="background-images">Background images</h2>
+<p>Bulkit has built-in support for background images via data attributes. To add a background image to any element, use the <code>data-background=&quot;path/to/my/image.jpg&quot;</code> attribute with a valid image url. Notice that you will still have to style your element&apos;s background properties with css.</p>
+<h2 id="plugins">Plugins</h2>
+<h3 id="tooltips">Tooltips</h3>
+<p>This is how you initialize tooltips :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;[data-toggle=&quot;tooltip&quot;]&apos;</span>).ggtooltip();
+</code></pre>
+<h3 id="popovers">Popovers</h3>
+<p>This is how you initialize popovers :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;[data-toggle=&quot;popover&quot;]&apos;</span>).ggpopover();
+</code></pre>
+<h3 id="datedropper">Datedropper</h3>
+<p>This is how you initialize Datedropper js :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;#my-element&apos;</span>).dateDropper();
+</code></pre>
+<h3 id="datepicker">Datepicker</h3>
+<p>This is how you initialize jQuery datepicker :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;[data-toggle=&quot;datepicker&quot;]&apos;</span>).datepicker();
+</code></pre>
+<h3 id="timedropper">Timedropper</h3>
+<p>This is how you initialize Timedropper js :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;#my-element&apos;</span>).timeDropper({
+    primaryColor: <span class="hljs-string">&apos;#4FC1EA&apos;</span>,
+    borderColor:<span class="hljs-string">&quot;#4FC1EA&quot;</span>,
+    backgroundColor:<span class="hljs-string">&quot;#FFF&quot;</span>,
+    init_animation: <span class="hljs-string">&apos;fadeIn&apos;</span>,
+});
+</code></pre>
+<h3 id="wickedpicker">Wickedpicker</h3>
+<p>Wickedpicker is simple timepicker plugin. it only has a few options. Here are two examples :</p>
+<p><strong>12 hours :</strong></p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;.my-element&apos;</span>).wickedpicker();
+</code></pre>
+<p><strong>24 hours :</strong></p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;.my-element&apos;</span>).wickedpicker({
+    twentyFour: <span class="hljs-literal">true</span>,
+    timeSeparator: <span class="hljs-string">&apos;:&apos;</span>
+});
+</code></pre>
+<h3 id="slick-carousel">Slick carousel</h3>
+<p>This how to initialize a basic a basic slick carousel, visit the plugin website to see all available options :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;.my-element&apos;</span>).slick({
+    dots: <span class="hljs-literal">true</span>,
+    infinite: <span class="hljs-literal">true</span>,
+    speed: <span class="hljs-number">500</span>,
+    cssEase: <span class="hljs-string">&apos;cubic-bezier(0.645, 0.045, 0.355, 1.000)&apos;</span>,
+    autoplay: <span class="hljs-literal">true</span>,
+});
+</code></pre>
+<h3 id="tags-input">Tags input</h3>
+<p>This is how to initialize the tagsinput plugin :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;.my-element&apos;</span>).jQueryInputTags({
+    maxTotalSize: <span class="hljs-number">255</span>,
+    maxTagSize: <span class="hljs-number">10</span>,
+    minTagSize: <span class="hljs-number">3</span>,
+    chars: <span class="hljs-regexp">/[,:]/</span>,
+    keycode: <span class="hljs-regexp">/(^9$|^13$|^32)/</span>, <span class="hljs-comment">// Tab, Enter, Space</span>
+    separator: <span class="hljs-string">&apos;,&apos;</span>,
+    sensitive: <span class="hljs-literal">false</span>,
+    clearSpaces: <span class="hljs-literal">true</span>
+
+});
+</code></pre>
+<h3 id="embed">Embed</h3>
+<p>To initialize the embed video instance, use this code :</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Video embed init</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;#my-element&apos;</span>).length) {
+    Video(<span class="hljs-string">&apos;#my-element&apos;</span>);
+}
+</code></pre>
+<h3 id="counterup">Counterup</h3>
+<p>This is how to initialize counterup (don&apos;t forget that it depends on waypoints) :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;.my-element&apos;</span>).counterUp({
+    delay: <span class="hljs-number">10</span>,
+    time: <span class="hljs-number">1000</span>
+});
+</code></pre>
+<h3 id="chosen">Chosen</h3>
+<p>This is how to initialize your chosen selects. See the plugin&apos;s documentation for all available options.</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&quot;.my-element&quot;</span>).chosen({
+    disable_search_threshold: <span class="hljs-number">6</span>,
+    width: <span class="hljs-string">&apos;100%&apos;</span>
+});
+</code></pre>
+<h3 id="wallop-slider">Wallop Slider</h3>
+<p>Wallop slider is very flexible. Look at the plugin&apos;s documentation for more details about available options. Below an example of how to initialize a fullscreen slider (you will also need css to build your slider layout) :</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;.Wallop&apos;</span>).length) {
+    <span class="hljs-keyword">var</span> wallopEl = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">&apos;.Wallop&apos;</span>);
+    <span class="hljs-keyword">var</span> wallop = <span class="hljs-keyword">new</span> Wallop(wallopEl);
+
+    <span class="hljs-keyword">var</span> paginationDots = <span class="hljs-built_in">Array</span>.prototype.slice.call(<span class="hljs-built_in">document</span>.querySelectorAll(<span class="hljs-string">&apos;.Wallop-dot&apos;</span>));
+
+    <span class="hljs-comment">//Attach click listener on the dots</span>
+
+    paginationDots.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">dotEl, index</span>) </span>{
+        dotEl.addEventListener(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+            wallop.goTo(index);
+        });
+    });
+
+    <span class="hljs-comment">// Listen to wallop change and update classes</span>
+
+    wallop.on(<span class="hljs-string">&apos;change&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+        removeClass(<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">&apos;.Wallop-dot--current&apos;</span>), <span class="hljs-string">&apos;Wallop-dot--current&apos;</span>);
+        addClass(paginationDots[event.detail.currentItemIndex], <span class="hljs-string">&apos;Wallop-dot--current&apos;</span>);
+    });
+
+
+
+    <span class="hljs-comment">// Helpers</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addClass</span>(<span class="hljs-params">element, className</span>) </span>{
+        <span class="hljs-keyword">if</span> (!element) { <span class="hljs-keyword">return</span>; }
+        element.className = element.className.replace(<span class="hljs-regexp">/\s+$/gi</span>, <span class="hljs-string">&apos;&apos;</span>) + <span class="hljs-string">&apos; &apos;</span> + className;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">removeClass</span>(<span class="hljs-params">element, className</span>) </span>{
+        <span class="hljs-keyword">if</span> (!element) { <span class="hljs-keyword">return</span>; }
+        element.className = element.className.replace(className, <span class="hljs-string">&apos;&apos;</span>);
+    }
+
+    <span class="hljs-comment">// To start Autoplay, just call the function below</span>
+    <span class="hljs-comment">// and pass in the number of seconds as interval</span>
+    <span class="hljs-comment">// if you want to start autoplay after a while</span>
+    <span class="hljs-comment">// you can wrap this in a setTimeout(); function</span>
+    autoplay(<span class="hljs-number">5000</span>);
+
+    <span class="hljs-comment">// This a a helper function to build a simple</span>
+    <span class="hljs-comment">// auto-play functionality.</span>
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">autoplay</span>(<span class="hljs-params">interval</span>) </span>{
+        <span class="hljs-keyword">var</span> lastTime = <span class="hljs-number">0</span>;
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">frame</span>(<span class="hljs-params">timestamp</span>) </span>{
+            <span class="hljs-keyword">var</span> update = timestamp - lastTime &gt;= interval;
+
+            <span class="hljs-keyword">if</span> (update) {
+                wallop.next();
+                lastTime = timestamp;
+            }
+
+            requestAnimationFrame(frame);
+        }
+
+        requestAnimationFrame(frame);
+    };
+}
+</code></pre>
+<h3 id="scrollreveal">Scrollreveal</h3>
+<p>Scrollreveal lets you define on scroll animations for your page elements. check the plugin documentation for all available options. Here is an example :</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Declaring defaults</span>
+<span class="hljs-built_in">window</span>.sr = ScrollReveal();
+
+<span class="hljs-comment">// Simple reveal</span>
+sr.reveal(<span class="hljs-string">&apos;.is-title-reveal&apos;</span>, {
+    origin: <span class="hljs-string">&apos;bottom&apos;</span>,
+    distance: <span class="hljs-string">&apos;20px&apos;</span>,
+    duration: <span class="hljs-number">600</span>,
+    delay: <span class="hljs-number">100</span>,
+    rotate: { x: <span class="hljs-number">0</span>, y: <span class="hljs-number">0</span>, z: <span class="hljs-number">0</span> },
+    opacity: <span class="hljs-number">0</span>,
+    scale: <span class="hljs-number">1</span>,
+    easing: <span class="hljs-string">&apos;cubic-bezier(0.215, 0.61, 0.355, 1)&apos;</span>,
+    container: <span class="hljs-built_in">window</span>.document.documentElement,
+    mobile: <span class="hljs-literal">true</span>,
+    reset: <span class="hljs-literal">false</span>,
+    useDelay: <span class="hljs-string">&apos;always&apos;</span>,
+    viewFactor: <span class="hljs-number">0.2</span>,
+});
+</code></pre>
+<h3 id="easyautocomplete">easyAutocomplete</h3>
+<p>This plugin let&apos;s you create simple and more complex autocompletes. We will see 2 examples here, a basic one and an advanced one with a cutom template.</p>
+<p>Basic example:</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Basic autocomplete</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;#basic-autocpl&apos;</span>).length) {
+    <span class="hljs-keyword">var</span> options = {
+        url: <span class="hljs-string">&quot;assets/js/easyAutocomplete/data/persons.json&quot;</span>,
+        getValue: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">element</span>) </span>{
+            <span class="hljs-keyword">return</span> element.name;
+        },
+        highlightPhrase: <span class="hljs-literal">false</span>,
+        list: {
+            maxNumberOfElements: <span class="hljs-number">5</span>,
+            showAnimation: {
+                type: <span class="hljs-string">&quot;fade&quot;</span>, <span class="hljs-comment">//normal|slide|fade</span>
+                time: <span class="hljs-number">400</span>,
+                callback: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{}
+            },
+            match: {
+                enabled: <span class="hljs-literal">true</span>
+            }
+        },
+    };
+
+    $(<span class="hljs-string">&quot;#basic-autocpl&quot;</span>).easyAutocomplete(options);
+}
+</code></pre>
+<p>Custom example using a custom template:</p>
+<pre><code class="lang-js"><span class="hljs-comment">//Users autocomplete</span>
+<span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;#users-autocpl&apos;</span>).length) {
+    <span class="hljs-keyword">var</span> usersOptions = {
+        url: <span class="hljs-string">&quot;assets/js/easyAutocomplete/data/persons.json&quot;</span>,
+        getValue: <span class="hljs-string">&quot;name&quot;</span>,
+        template: {
+            type: <span class="hljs-string">&quot;custom&quot;</span>,
+            method: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">value, item</span>) </span>{
+                <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&lt;div class=&quot;</span> + <span class="hljs-string">&apos;template-wrapper&apos;</span> + <span class="hljs-string">&quot;&gt;&lt;img class=&quot;</span> + <span class="hljs-string">&apos;autocpl-avatar&apos;</span> + <span class="hljs-string">&quot; src=&apos;&quot;</span> + item.pic + <span class="hljs-string">&quot;&apos; /&gt;&lt;div class=&quot;</span> + <span class="hljs-string">&apos;entry-text&apos;</span> + <span class="hljs-string">&quot;&gt;&quot;</span> + value + <span class="hljs-string">&quot;&lt;br&gt;&lt;span&gt;&quot;</span> + item.email + <span class="hljs-string">&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt; &quot;</span>;
+            }
+        },
+        highlightPhrase: <span class="hljs-literal">false</span>,
+        list: {
+            maxNumberOfElements: <span class="hljs-number">3</span>,
+            showAnimation: {
+                type: <span class="hljs-string">&quot;fade&quot;</span>, <span class="hljs-comment">//normal|slide|fade</span>
+                time: <span class="hljs-number">400</span>,
+                callback: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{}
+            },
+            match: {
+                enabled: <span class="hljs-literal">true</span>
+            }
+        },
+    };
+
+    $(<span class="hljs-string">&quot;#users-autocpl&quot;</span>).easyAutocomplete(usersOptions);
+}
+</code></pre>
+<p>! Notice that esayAutocomplete gets its data from a <code>json</code> formatted file. Be sure to provide a validated json file and the right path to access it.</p>
+<h3 id="izitoast">iziToast</h3>
+<p>This how you initialize a simple toast message. Check the <code>bulkit/assets/js/pages/components-toats.js</code> for more examples :</p>
+<pre><code class="lang-js">$(<span class="hljs-string">&apos;#top-left-toast&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    iziToast.show({
+        title: <span class="hljs-string">&apos;Hello,&apos;</span>,
+        message: <span class="hljs-string">&apos;Iam a very simple Toast !&apos;</span>,
+        position: <span class="hljs-string">&apos;topLeft&apos;</span>,
+    });
+})
+</code></pre>
+<h3 id="gmapjs">gmapjs</h3>
+<p>Initialize a google map element :</p>
+<pre><code class="lang-js"><span class="hljs-keyword">if</span> ($(<span class="hljs-string">&apos;#my-map&apos;</span>).length) {
+    $(<span class="hljs-string">&apos;#my-map&apos;</span>).gMap({
+        latitude: <span class="hljs-number">40.7143528</span>,
+        longitude: <span class="hljs-number">-74.0059731</span>,
+        maptype: <span class="hljs-string">&apos;ROADMAP&apos;</span>,
+        zoom: <span class="hljs-number">13</span>,
+        markers: [
+            {
+                latitude: <span class="hljs-number">40.71771</span>,
+                longitude:  <span class="hljs-number">-74.003245</span>,
+                html: <span class="hljs-string">&apos;&lt;div style=&quot;width: 300px;&quot;&gt;&lt;h4 style=&quot;margin-bottom: 8px;&quot;&gt;&lt;/h4&gt;&lt;div style=&quot;align-items:center!important;&quot; class=&quot;content content-flex&quot;&gt;&lt;div&gt;&lt;img style=&quot;height:60px;border-radius:100px;&quot; src=&quot;assets/images/logos/cssninja.svg&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin-left:20px;&quot;&gt; Iam very happy if you like this template. If you need any support, please feel free to contact us at &lt;strong&gt;hello@cssninja.io&lt;/strong&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&apos;</span>,
+                icon: {
+                    image: <span class="hljs-string">&quot;assets/images/markers/marker-purple.png&quot;</span>,
+                    iconsize: [<span class="hljs-number">56</span>, <span class="hljs-number">82</span>],
+                    iconanchor: [<span class="hljs-number">32</span>,<span class="hljs-number">39</span>]
+                }
+            }
+        ],
+        doubleclickzoom: <span class="hljs-literal">true</span>,
+        controls: {
+            panControl: <span class="hljs-literal">true</span>,
+            zoomControl: <span class="hljs-literal">true</span>,
+            mapTypeControl: <span class="hljs-literal">true</span>,
+            scaleControl: <span class="hljs-literal">false</span>,
+            streetViewControl: <span class="hljs-literal">false</span>,
+            overviewMapControl: <span class="hljs-literal">false</span>
+        }
+    });
+}
+</code></pre>
+<h1 id="customer-support">Customer support</h1>
+<p>Please remember you have purchased a very affordable theme and you did not pay for a full-time web design agency. We will help with your issues, but these requests will be put on a relevant priority, regarding their nature. Support is provided for your comfort and for a best possible experience, so please be patient, polite and respectful, as we are towards you.</p>
+<h2 id="support-includes">Support includes</h2>
+<ul>
+<li>Responding to questions or problems regarding the item and its features</li>
+<li>Fixing bugs and reported issues</li>
+<li>Providing updates</li>
+</ul>
+<h2 id="support-doesnt-include">Support doesn&apos;t include</h2>
+<ul>
+<li>Customization and installation services</li>
+<li>Support for third party software and plug-ins</li>
+</ul>
+<h2 id="before-support">Before Support</h2>
+<ul>
+<li>Make sure your question is a valid Theme Issue and not a customization request</li>
+<li>Make sure you have read through the documentation and any ressources before asking support on how to accomplish a task</li>
+<li>Make sure to double check the theme FAQs.</li>
+<li>If you have customized your theme and now have an issue, back-track to make sure you didn&apos;t make a mistake. If you have made changes and can&apos;t find the issue, please provide us with your changelog.</li>
+<li>Almost 80% of the time we find that the solution to people&apos;s issues can be solved with a simple &quot;Google Search&quot;. You might want to try that before seeking support. You might be able to fix the issue yourself much quicker than we can respond to your request.</li>
+<li>Make sure to state the name of the theme you are having issues with when requesting support.</li>
+</ul>
+<h1 id="changelog">Changelog</h1>
+<p>You can find the version history (changelog.txt) file on bulkit-theme.zip folder or you can check the changelog on the theme sale page.</p>
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, we&apos;d be glad to help you if you have any questions relating to this theme. No guarantees, but we&apos;ll do our best to assist and support you. If you have a more general question relating to Bulkit, you might consider visiting our support forums and asking your question in the &quot;Bulkit support&quot; section.</p>
+<pre><code>-----------------------------------------------------------------------------------------
+Version 4.1.4 - Jan 10, 2021
+-----------------------------------------------------------------------------------------
+
+- Fixed small layout bugs
+* Added 4 landing pages
+
+-----------------------------------------------------------------------------------------
+Version 4.1.0 - Dec 6, 2020
+-----------------------------------------------------------------------------------------
+
+- Fixed small layout bugs
+* Added 4 landing pages
+
+-----------------------------------------------------------------------------------------
+Version 4.0.0 - November 13, 2020
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.9.1
+* Fixed various layout issues
+* Refactored all kits
+* Merged all kits into one
+* Added new landing pages and utilities
+* Added 10 built in color schemes
+* Redesigned and refreshed all graphic assets
+* Made all sections / hero / UI elements global
+
+-----------------------------------------------------------------------------------------
+Version 3.2.0 - July 17, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.9.0
+- Fixed mobile navbar issues
+- Fixed layout and component bugs
+- Fixed regressions due to Bulma breaking changes
+- Fixed and updated dependencies
+- Added new One page kit (One pager 3)
+
+-----------------------------------------------------------------------------------------
+Version 3.1.0 - Apr 4, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.8.2
+- Refreshed component sections
+- Fixed layout and component bugs
+- Fixed regressions due to Bulma breaking changes
+- Fixed and updated dependencies
+- Added new landing page kit (kit 8)
+
+-----------------------------------------------------------------------------------------
+Version 3.0.0 - Dec 30, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.8.0
+- Did some cleaning and code splitting for the hole template
+- Updated and reworked file structure
+- Refactored all javascript
+- Fixed various layout issues
+- Refreshed all kits
+- Fixed and updated all components
+- Fixed Navbar responsive issues
+- Fixed regressions due to Bulma breaking changes
+- Added new bulma calendar extension
+- Added new landing page kit (kit 7)
+
+-----------------------------------------------------------------------------------------
+Version 2.4.0 - Sep 01, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.7.5
+- Fixed Navbar responsive issues
+- Fixed regressions due to Bulma breaking changes
+- Added material style select box
+- Added Error kit with 404 and 500 errors templates
+- Added a new One pager kit
+- Fixed dashboard datatable filtering and sorting issues
+
+-----------------------------------------------------------------------------------------
+Version 2.3.0 - Mar 24, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.7.4
+- Upgraded gulp-sass to 3.2.0
+- Added a new onepager kit
+- Added Chat UI to the dashboard
+- Added Inbox UI to the dashboard
+- Fixed various layout bugs
+
+-----------------------------------------------------------------------------------------
+Version 2.2.0 - Jan 05, 2019
+-----------------------------------------------------------------------------------------
+
+- Updated Bulma to 0.7.2
+- Reworked dashboard navbar
+- Reworked dashboard dropdowns
+- Reworked dashboard javascript structure
+- Reworked dashboard navigation
+- Fixed various layout bugs
+- Added 9 new dashboard pages
+
+-----------------------------------------------------------------------------------------
+Version 2.1.0 - Sep 25, 2018
+-----------------------------------------------------------------------------------------
+
+- Added a new landing page one pager kit
+- Reworked mobile dashboard navigation
+- Fixed some layout issues
+- Added 7 new dashboard pages
+
+-----------------------------------------------------------------------------------------
+Version 2.0.0 - Jun 10, 2018
+-----------------------------------------------------------------------------------------
+
+- Upgraded Bulma to 0.7
+- Splitted the initial template into 9 gulp standalone kits
+- Npm is now supported
+- Gulp is now the build and watch system
+- Added browser sync for development mode
+- Added a Panini flat file generator for partials
+- Navbar component has been completely rewritten
+- Improved layout with newest Bulma Features
+- Added a 5th landing Kit
+- Added project pages and datatable pages to the dashboard kit
+- Added additional components
+
+-----------------------------------------------------------------------------------------
+Version 1.0.0 - Mar 10, 2018
+-----------------------------------------------------------------------------------------
+
+- Initial Release
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Huro 1.0","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["page-toc"],"pluginsConfig":{"page-toc":{"position":"top","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3","showByDefault":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./docs.css"}},"file":{"path":"README.md","mtime":"2021-01-10T17:32:24.722Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-10T17:32:29.393Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
